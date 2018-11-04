@@ -1,0 +1,97 @@
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\ApplicationInsights.config
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\HousewareShop.UnitTest.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\HousewareShop.UnitTest.pdb
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\HousewareShop.Common.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\HousewareShop.Data.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\HousewareShop.Model.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\HousewareShop.Service.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\HousewareShop.Web.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\System.Web.Optimization.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\System.Web.Mvc.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\System.Web.Http.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\System.Web.Http.WebHost.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\System.Web.WebPages.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\System.Web.WebPages.Razor.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\System.Web.Razor.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\System.Net.Http.Formatting.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\Newtonsoft.Json.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\HousewareShop.Common.pdb
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\HousewareShop.Data.pdb
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\HousewareShop.Data.dll.config
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\HousewareShop.Model.pdb
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\HousewareShop.Model.dll.config
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\HousewareShop.Service.pdb
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\HousewareShop.Web.pdb
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\HousewareShop.Web.dll.config
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\System.Web.Optimization.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\System.Web.Mvc.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\System.Web.Http.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\System.Web.Http.WebHost.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\System.Web.WebPages.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\System.Web.WebPages.Razor.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\System.Web.Razor.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\System.Net.Http.Formatting.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\obj\Debug\HousewareShop.UnitTest.csprojAssemblyReference.cache
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\obj\Debug\HousewareShop.UnitTest.csproj.CoreCompileInputs.cache
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\obj\Debug\HousewareShop.UnitTest.csproj.CopyComplete
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\obj\Debug\HousewareShop.UnitTest.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.UnitTest\obj\Debug\HousewareShop.UnitTest.pdb
+E:\Git\HousewareShop.UnitTest\bin\Debug\ApplicationInsights.config
+E:\Git\HousewareShop.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\Git\HousewareShop.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\Git\HousewareShop.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\Git\HousewareShop.UnitTest\bin\Debug\HousewareShop.UnitTest.dll
+E:\Git\HousewareShop.UnitTest\bin\Debug\HousewareShop.UnitTest.pdb
+E:\Git\HousewareShop.UnitTest\bin\Debug\HousewareShop.Common.dll
+E:\Git\HousewareShop.UnitTest\bin\Debug\HousewareShop.Data.dll
+E:\Git\HousewareShop.UnitTest\bin\Debug\HousewareShop.Model.dll
+E:\Git\HousewareShop.UnitTest\bin\Debug\HousewareShop.Service.dll
+E:\Git\HousewareShop.UnitTest\bin\Debug\HousewareShop.Web.dll
+E:\Git\HousewareShop.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\Git\HousewareShop.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\Git\HousewareShop.UnitTest\bin\Debug\EntityFramework.dll
+E:\Git\HousewareShop.UnitTest\bin\Debug\System.Web.Optimization.dll
+E:\Git\HousewareShop.UnitTest\bin\Debug\System.Web.Mvc.dll
+E:\Git\HousewareShop.UnitTest\bin\Debug\System.Web.Http.dll
+E:\Git\HousewareShop.UnitTest\bin\Debug\System.Web.Http.WebHost.dll
+E:\Git\HousewareShop.UnitTest\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Git\HousewareShop.UnitTest\bin\Debug\System.Web.WebPages.dll
+E:\Git\HousewareShop.UnitTest\bin\Debug\System.Web.WebPages.Razor.dll
+E:\Git\HousewareShop.UnitTest\bin\Debug\System.Web.Razor.dll
+E:\Git\HousewareShop.UnitTest\bin\Debug\System.Net.Http.Formatting.dll
+E:\Git\HousewareShop.UnitTest\bin\Debug\Newtonsoft.Json.dll
+E:\Git\HousewareShop.UnitTest\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\Git\HousewareShop.UnitTest\bin\Debug\HousewareShop.Common.pdb
+E:\Git\HousewareShop.UnitTest\bin\Debug\HousewareShop.Data.pdb
+E:\Git\HousewareShop.UnitTest\bin\Debug\HousewareShop.Data.dll.config
+E:\Git\HousewareShop.UnitTest\bin\Debug\HousewareShop.Model.pdb
+E:\Git\HousewareShop.UnitTest\bin\Debug\HousewareShop.Model.dll.config
+E:\Git\HousewareShop.UnitTest\bin\Debug\HousewareShop.Service.pdb
+E:\Git\HousewareShop.UnitTest\bin\Debug\HousewareShop.Web.pdb
+E:\Git\HousewareShop.UnitTest\bin\Debug\HousewareShop.Web.dll.config
+E:\Git\HousewareShop.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\Git\HousewareShop.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\Git\HousewareShop.UnitTest\bin\Debug\System.Web.Optimization.xml
+E:\Git\HousewareShop.UnitTest\bin\Debug\System.Web.Mvc.xml
+E:\Git\HousewareShop.UnitTest\bin\Debug\System.Web.Http.xml
+E:\Git\HousewareShop.UnitTest\bin\Debug\System.Web.Http.WebHost.xml
+E:\Git\HousewareShop.UnitTest\bin\Debug\System.Web.WebPages.xml
+E:\Git\HousewareShop.UnitTest\bin\Debug\System.Web.WebPages.Razor.xml
+E:\Git\HousewareShop.UnitTest\bin\Debug\System.Web.Razor.xml
+E:\Git\HousewareShop.UnitTest\bin\Debug\System.Net.Http.Formatting.xml
+E:\Git\HousewareShop.UnitTest\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\Git\HousewareShop.UnitTest\obj\Debug\HousewareShop.UnitTest.csprojAssemblyReference.cache
+E:\Git\HousewareShop.UnitTest\obj\Debug\HousewareShop.UnitTest.csproj.CoreCompileInputs.cache
+E:\Git\HousewareShop.UnitTest\obj\Debug\HousewareShop.UnitTest.csproj.CopyComplete
+E:\Git\HousewareShop.UnitTest\obj\Debug\HousewareShop.UnitTest.dll
+E:\Git\HousewareShop.UnitTest\obj\Debug\HousewareShop.UnitTest.pdb

@@ -1,0 +1,12 @@
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Common\bin\Debug\HousewareShop.Common.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Common\bin\Debug\HousewareShop.Common.pdb
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Common\obj\Debug\HousewareShop.Common.csprojAssemblyReference.cache
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Common\obj\Debug\HousewareShop.Common.csproj.CoreCompileInputs.cache
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Common\obj\Debug\HousewareShop.Common.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Common\obj\Debug\HousewareShop.Common.pdb
+E:\Git\HousewareShop.Common\bin\Debug\HousewareShop.Common.dll
+E:\Git\HousewareShop.Common\bin\Debug\HousewareShop.Common.pdb
+E:\Git\HousewareShop.Common\obj\Debug\HousewareShop.Common.csprojAssemblyReference.cache
+E:\Git\HousewareShop.Common\obj\Debug\HousewareShop.Common.csproj.CoreCompileInputs.cache
+E:\Git\HousewareShop.Common\obj\Debug\HousewareShop.Common.dll
+E:\Git\HousewareShop.Common\obj\Debug\HousewareShop.Common.pdb

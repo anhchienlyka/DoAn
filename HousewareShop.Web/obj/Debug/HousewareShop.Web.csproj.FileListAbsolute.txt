@@ -1,0 +1,182 @@
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\ApplicationInsights.config
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\HousewareShop.Web.dll.config
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\HousewareShop.Web.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\HousewareShop.Web.pdb
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\csc.exe
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\csc.exe.config
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\csc.rsp
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\csi.exe
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\csi.rsp
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\System.AppContext.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\System.Collections.Immutable.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\System.IO.FileSystem.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\System.Reflection.Metadata.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\vbc.exe
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\vbc.exe.config
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\vbc.rsp
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\VBCSCompiler.exe
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\roslyn\VBCSCompiler.exe.config
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\Antlr3.Runtime.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\EntityFramework.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\EntityFramework.SqlServer.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\HousewareShop.Common.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\HousewareShop.Data.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\HousewareShop.Model.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\HousewareShop.Service.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\Microsoft.AI.DependencyCollector.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\Microsoft.AI.Web.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\Microsoft.AI.WindowsServer.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\Microsoft.ApplicationInsights.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\Newtonsoft.Json.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\System.Net.Http.Formatting.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\System.Web.Helpers.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\System.Web.Http.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\System.Web.Http.WebHost.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\System.Web.Mvc.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\System.Web.Optimization.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\System.Web.Razor.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\System.Web.WebPages.Deployment.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\System.Web.WebPages.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\System.Web.WebPages.Razor.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\WebGrease.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\HousewareShop.Common.pdb
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\HousewareShop.Data.pdb
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\HousewareShop.Data.dll.config
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\HousewareShop.Model.pdb
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\HousewareShop.Model.dll.config
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\HousewareShop.Service.pdb
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\EntityFramework.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\EntityFramework.SqlServer.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\System.Web.Helpers.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\System.Web.Mvc.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\System.Web.Optimization.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\System.Web.Razor.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\System.Web.WebPages.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\System.Web.WebPages.Deployment.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\System.Web.WebPages.Razor.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\Newtonsoft.Json.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\Antlr3.Runtime.pdb
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\System.Net.Http.Formatting.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\System.Web.Http.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\System.Web.Http.WebHost.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\Microsoft.AI.DependencyCollector.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\Microsoft.AI.WindowsServer.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\Microsoft.AI.Web.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\obj\Debug\HousewareShop.Web.csprojAssemblyReference.cache
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\obj\Debug\HousewareShop.Web.csproj.CoreCompileInputs.cache
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\obj\Debug\HousewareShop.Web.csproj.CopyComplete
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\obj\Debug\HousewareShop.Web.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Web\obj\Debug\HousewareShop.Web.pdb
+E:\Git\HousewareShop.Web\bin\ApplicationInsights.config
+E:\Git\HousewareShop.Web\bin\HousewareShop.Web.dll.config
+E:\Git\HousewareShop.Web\bin\HousewareShop.Web.dll
+E:\Git\HousewareShop.Web\bin\HousewareShop.Web.pdb
+E:\Git\HousewareShop.Web\bin\roslyn\csc.exe
+E:\Git\HousewareShop.Web\bin\roslyn\csc.exe.config
+E:\Git\HousewareShop.Web\bin\roslyn\csc.rsp
+E:\Git\HousewareShop.Web\bin\roslyn\csi.exe
+E:\Git\HousewareShop.Web\bin\roslyn\csi.rsp
+E:\Git\HousewareShop.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Git\HousewareShop.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Git\HousewareShop.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Git\HousewareShop.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Git\HousewareShop.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Git\HousewareShop.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Git\HousewareShop.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Git\HousewareShop.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Git\HousewareShop.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Git\HousewareShop.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Git\HousewareShop.Web\bin\roslyn\System.AppContext.dll
+E:\Git\HousewareShop.Web\bin\roslyn\System.Collections.Immutable.dll
+E:\Git\HousewareShop.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Git\HousewareShop.Web\bin\roslyn\System.IO.FileSystem.dll
+E:\Git\HousewareShop.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Git\HousewareShop.Web\bin\roslyn\System.Reflection.Metadata.dll
+E:\Git\HousewareShop.Web\bin\roslyn\vbc.exe
+E:\Git\HousewareShop.Web\bin\roslyn\vbc.exe.config
+E:\Git\HousewareShop.Web\bin\roslyn\vbc.rsp
+E:\Git\HousewareShop.Web\bin\roslyn\VBCSCompiler.exe
+E:\Git\HousewareShop.Web\bin\roslyn\VBCSCompiler.exe.config
+E:\Git\HousewareShop.Web\bin\Antlr3.Runtime.dll
+E:\Git\HousewareShop.Web\bin\EntityFramework.dll
+E:\Git\HousewareShop.Web\bin\EntityFramework.SqlServer.dll
+E:\Git\HousewareShop.Web\bin\HousewareShop.Common.dll
+E:\Git\HousewareShop.Web\bin\HousewareShop.Data.dll
+E:\Git\HousewareShop.Web\bin\HousewareShop.Model.dll
+E:\Git\HousewareShop.Web\bin\HousewareShop.Service.dll
+E:\Git\HousewareShop.Web\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Git\HousewareShop.Web\bin\Microsoft.AI.DependencyCollector.dll
+E:\Git\HousewareShop.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Git\HousewareShop.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Git\HousewareShop.Web\bin\Microsoft.AI.Web.dll
+E:\Git\HousewareShop.Web\bin\Microsoft.AI.WindowsServer.dll
+E:\Git\HousewareShop.Web\bin\Microsoft.ApplicationInsights.dll
+E:\Git\HousewareShop.Web\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\Git\HousewareShop.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Git\HousewareShop.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\Git\HousewareShop.Web\bin\Newtonsoft.Json.dll
+E:\Git\HousewareShop.Web\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Git\HousewareShop.Web\bin\System.Net.Http.Formatting.dll
+E:\Git\HousewareShop.Web\bin\System.Web.Helpers.dll
+E:\Git\HousewareShop.Web\bin\System.Web.Http.dll
+E:\Git\HousewareShop.Web\bin\System.Web.Http.WebHost.dll
+E:\Git\HousewareShop.Web\bin\System.Web.Mvc.dll
+E:\Git\HousewareShop.Web\bin\System.Web.Optimization.dll
+E:\Git\HousewareShop.Web\bin\System.Web.Razor.dll
+E:\Git\HousewareShop.Web\bin\System.Web.WebPages.Deployment.dll
+E:\Git\HousewareShop.Web\bin\System.Web.WebPages.dll
+E:\Git\HousewareShop.Web\bin\System.Web.WebPages.Razor.dll
+E:\Git\HousewareShop.Web\bin\WebGrease.dll
+E:\Git\HousewareShop.Web\bin\HousewareShop.Common.pdb
+E:\Git\HousewareShop.Web\bin\HousewareShop.Data.pdb
+E:\Git\HousewareShop.Web\bin\HousewareShop.Data.dll.config
+E:\Git\HousewareShop.Web\bin\HousewareShop.Model.pdb
+E:\Git\HousewareShop.Web\bin\HousewareShop.Model.dll.config
+E:\Git\HousewareShop.Web\bin\HousewareShop.Service.pdb
+E:\Git\HousewareShop.Web\bin\EntityFramework.xml
+E:\Git\HousewareShop.Web\bin\EntityFramework.SqlServer.xml
+E:\Git\HousewareShop.Web\bin\System.Web.Helpers.xml
+E:\Git\HousewareShop.Web\bin\System.Web.Mvc.xml
+E:\Git\HousewareShop.Web\bin\System.Web.Optimization.xml
+E:\Git\HousewareShop.Web\bin\System.Web.Razor.xml
+E:\Git\HousewareShop.Web\bin\System.Web.WebPages.xml
+E:\Git\HousewareShop.Web\bin\System.Web.WebPages.Deployment.xml
+E:\Git\HousewareShop.Web\bin\System.Web.WebPages.Razor.xml
+E:\Git\HousewareShop.Web\bin\Newtonsoft.Json.xml
+E:\Git\HousewareShop.Web\bin\Antlr3.Runtime.pdb
+E:\Git\HousewareShop.Web\bin\System.Net.Http.Formatting.xml
+E:\Git\HousewareShop.Web\bin\System.Web.Http.xml
+E:\Git\HousewareShop.Web\bin\System.Web.Http.WebHost.xml
+E:\Git\HousewareShop.Web\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Git\HousewareShop.Web\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\Git\HousewareShop.Web\bin\Microsoft.AI.DependencyCollector.xml
+E:\Git\HousewareShop.Web\bin\Microsoft.AI.WindowsServer.xml
+E:\Git\HousewareShop.Web\bin\Microsoft.AI.Web.xml
+E:\Git\HousewareShop.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Git\HousewareShop.Web\obj\Debug\HousewareShop.Web.csprojAssemblyReference.cache
+E:\Git\HousewareShop.Web\obj\Debug\HousewareShop.Web.csproj.CoreCompileInputs.cache
+E:\Git\HousewareShop.Web\obj\Debug\HousewareShop.Web.csproj.CopyComplete
+E:\Git\HousewareShop.Web\obj\Debug\HousewareShop.Web.dll
+E:\Git\HousewareShop.Web\obj\Debug\HousewareShop.Web.pdb

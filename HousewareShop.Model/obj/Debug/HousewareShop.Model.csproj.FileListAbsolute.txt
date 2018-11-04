@@ -1,0 +1,22 @@
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Model\bin\Debug\HousewareShop.Model.dll.config
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Model\bin\Debug\HousewareShop.Model.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Model\bin\Debug\HousewareShop.Model.pdb
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Model\bin\Debug\EntityFramework.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Model\bin\Debug\EntityFramework.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Model\obj\Debug\HousewareShop.Model.csprojAssemblyReference.cache
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Model\obj\Debug\HousewareShop.Model.csproj.CoreCompileInputs.cache
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Model\obj\Debug\HousewareShop.Model.csproj.CopyComplete
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Model\obj\Debug\HousewareShop.Model.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Model\obj\Debug\HousewareShop.Model.pdb
+E:\Git\HousewareShop.Model\bin\Debug\HousewareShop.Model.dll.config
+E:\Git\HousewareShop.Model\bin\Debug\HousewareShop.Model.dll
+E:\Git\HousewareShop.Model\bin\Debug\HousewareShop.Model.pdb
+E:\Git\HousewareShop.Model\bin\Debug\HousewareShop.Common.dll
+E:\Git\HousewareShop.Model\bin\Debug\HousewareShop.Common.pdb
+E:\Git\HousewareShop.Model\obj\Debug\HousewareShop.Model.csprojAssemblyReference.cache
+E:\Git\HousewareShop.Model\obj\Debug\HousewareShop.Model.csproj.CoreCompileInputs.cache
+E:\Git\HousewareShop.Model\obj\Debug\HousewareShop.Model.csproj.CopyComplete
+E:\Git\HousewareShop.Model\obj\Debug\HousewareShop.Model.dll
+E:\Git\HousewareShop.Model\obj\Debug\HousewareShop.Model.pdb

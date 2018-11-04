@@ -1,0 +1,31 @@
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Service\bin\Debug\HousewareShop.Service.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Service\bin\Debug\HousewareShop.Service.pdb
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Service\bin\Debug\HousewareShop.Common.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Service\bin\Debug\HousewareShop.Data.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Service\bin\Debug\HousewareShop.Model.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Service\bin\Debug\HousewareShop.Common.pdb
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Service\bin\Debug\HousewareShop.Data.pdb
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Service\bin\Debug\HousewareShop.Data.dll.config
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Service\bin\Debug\HousewareShop.Model.pdb
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Service\bin\Debug\HousewareShop.Model.dll.config
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Service\obj\Debug\HousewareShop.Service.csprojAssemblyReference.cache
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Service\obj\Debug\HousewareShop.Service.csproj.CoreCompileInputs.cache
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Service\obj\Debug\HousewareShop.Service.csproj.CopyComplete
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Service\obj\Debug\HousewareShop.Service.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Service\obj\Debug\HousewareShop.Service.pdb
+E:\Git\HousewareShop.Service\bin\Debug\HousewareShop.Service.dll
+E:\Git\HousewareShop.Service\bin\Debug\HousewareShop.Service.pdb
+E:\Git\HousewareShop.Service\bin\Debug\HousewareShop.Common.dll
+E:\Git\HousewareShop.Service\bin\Debug\HousewareShop.Data.dll
+E:\Git\HousewareShop.Service\bin\Debug\HousewareShop.Model.dll
+E:\Git\HousewareShop.Service\bin\Debug\EntityFramework.dll
+E:\Git\HousewareShop.Service\bin\Debug\HousewareShop.Common.pdb
+E:\Git\HousewareShop.Service\bin\Debug\HousewareShop.Data.pdb
+E:\Git\HousewareShop.Service\bin\Debug\HousewareShop.Data.dll.config
+E:\Git\HousewareShop.Service\bin\Debug\HousewareShop.Model.pdb
+E:\Git\HousewareShop.Service\bin\Debug\HousewareShop.Model.dll.config
+E:\Git\HousewareShop.Service\obj\Debug\HousewareShop.Service.csprojAssemblyReference.cache
+E:\Git\HousewareShop.Service\obj\Debug\HousewareShop.Service.csproj.CoreCompileInputs.cache
+E:\Git\HousewareShop.Service\obj\Debug\HousewareShop.Service.csproj.CopyComplete
+E:\Git\HousewareShop.Service\obj\Debug\HousewareShop.Service.dll
+E:\Git\HousewareShop.Service\obj\Debug\HousewareShop.Service.pdb

@@ -1,0 +1,25 @@
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Data\bin\Debug\HousewareShop.Data.dll.config
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Data\bin\Debug\HousewareShop.Data.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Data\bin\Debug\HousewareShop.Data.pdb
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Data\bin\Debug\EntityFramework.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Data\bin\Debug\EntityFramework.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Data\obj\Debug\HousewareShop.Data.csprojAssemblyReference.cache
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Data\obj\Debug\HousewareShop.Data.csproj.CoreCompileInputs.cache
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Data\obj\Debug\HousewareShop.Data.csproj.CopyComplete
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Data\obj\Debug\HousewareShop.Data.dll
+E:\Thực tập + đồ án\HousewareShop\HousewareShop.Data\obj\Debug\HousewareShop.Data.pdb
+E:\Git\HousewareShop.Data\bin\Debug\HousewareShop.Data.dll.config
+E:\Git\HousewareShop.Data\bin\Debug\HousewareShop.Data.dll
+E:\Git\HousewareShop.Data\bin\Debug\HousewareShop.Data.pdb
+E:\Git\HousewareShop.Data\bin\Debug\HousewareShop.Model.dll
+E:\Git\HousewareShop.Data\bin\Debug\HousewareShop.Model.pdb
+E:\Git\HousewareShop.Data\bin\Debug\HousewareShop.Model.dll.config
+E:\Git\HousewareShop.Data\obj\Debug\HousewareShop.Data.csprojAssemblyReference.cache
+E:\Git\HousewareShop.Data\obj\Debug\HousewareShop.Data.csproj.CoreCompileInputs.cache
+E:\Git\HousewareShop.Data\obj\Debug\HousewareShop.Data.csproj.CopyComplete
+E:\Git\HousewareShop.Data\obj\Debug\HousewareShop.Data.dll
+E:\Git\HousewareShop.Data\obj\Debug\HousewareShop.Data.pdb
+E:\Git\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.Datanew.resources
+E:\Git\HousewareShop.Data\obj\Debug\HousewareShop.Data.csproj.GenerateResource.cache
