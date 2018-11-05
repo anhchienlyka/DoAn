@@ -23,3 +23,16 @@ E:\Git\HousewareShop.Data\obj\Debug\HousewareShop.Data.dll
 E:\Git\HousewareShop.Data\obj\Debug\HousewareShop.Data.pdb
 E:\Git\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.Datanew.resources
 E:\Git\HousewareShop.Data\obj\Debug\HousewareShop.Data.csproj.GenerateResource.cache
+D:\C#-FPT\DoAn\HousewareShop.Data\bin\Debug\HousewareShop.Data.dll.config
+D:\C#-FPT\DoAn\HousewareShop.Data\bin\Debug\HousewareShop.Data.dll
+D:\C#-FPT\DoAn\HousewareShop.Data\bin\Debug\HousewareShop.Data.pdb
+D:\C#-FPT\DoAn\HousewareShop.Data\bin\Debug\HousewareShop.Model.dll
+D:\C#-FPT\DoAn\HousewareShop.Data\bin\Debug\HousewareShop.Model.pdb
+D:\C#-FPT\DoAn\HousewareShop.Data\bin\Debug\HousewareShop.Model.dll.config
+D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.csprojAssemblyReference.cache
+D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.csproj.CoreCompileInputs.cache
+D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.csproj.CopyComplete
+D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.dll
+D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.pdb
+D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.DBAddss.resources
+D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.csproj.GenerateResource.cache

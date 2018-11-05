@@ -56,9 +56,9 @@
     <Compile Include="Infrastructure\IUnitOfWork.cs" />
     <Compile Include="Infrastructure\RepositoryBase.cs" />
     <Compile Include="Infrastructure\UnitOfWork.cs" />
-    <Compile Include="Migrations\201811031651343_Datanew.cs" />
-    <Compile Include="Migrations\201811031651343_Datanew.Designer.cs">
-      <DependentUpon>201811031651343_Datanew.cs</DependentUpon>
+    <Compile Include="Migrations\201811051632196_DBAddss.cs" />
+    <Compile Include="Migrations\201811051632196_DBAddss.Designer.cs">
+      <DependentUpon>201811051632196_DBAddss.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
@@ -113,8 +113,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201811031651343_Datanew.resx">
-      <DependentUpon>201811031651343_Datanew.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201811051632196_DBAddss.resx">
+      <DependentUpon>201811051632196_DBAddss.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

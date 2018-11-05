@@ -20,3 +20,13 @@ E:\Git\HousewareShop.Model\obj\Debug\HousewareShop.Model.csproj.CoreCompileInput
 E:\Git\HousewareShop.Model\obj\Debug\HousewareShop.Model.csproj.CopyComplete
 E:\Git\HousewareShop.Model\obj\Debug\HousewareShop.Model.dll
 E:\Git\HousewareShop.Model\obj\Debug\HousewareShop.Model.pdb
+D:\C#-FPT\DoAn\HousewareShop.Model\bin\Debug\HousewareShop.Model.dll.config
+D:\C#-FPT\DoAn\HousewareShop.Model\bin\Debug\HousewareShop.Model.dll
+D:\C#-FPT\DoAn\HousewareShop.Model\bin\Debug\HousewareShop.Model.pdb
+D:\C#-FPT\DoAn\HousewareShop.Model\bin\Debug\HousewareShop.Common.dll
+D:\C#-FPT\DoAn\HousewareShop.Model\bin\Debug\HousewareShop.Common.pdb
+D:\C#-FPT\DoAn\HousewareShop.Model\obj\Debug\HousewareShop.Model.csproj.CoreCompileInputs.cache
+D:\C#-FPT\DoAn\HousewareShop.Model\obj\Debug\HousewareShop.Model.csproj.CopyComplete
+D:\C#-FPT\DoAn\HousewareShop.Model\obj\Debug\HousewareShop.Model.dll
+D:\C#-FPT\DoAn\HousewareShop.Model\obj\Debug\HousewareShop.Model.pdb
+D:\C#-FPT\DoAn\HousewareShop.Model\obj\Debug\HousewareShop.Model.csprojAssemblyReference.cache
