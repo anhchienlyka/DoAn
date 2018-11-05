@@ -1,4 +1,6 @@
-﻿using HousewareShop.Model;
+﻿
+using HousewareShop.Model;
+using HousewareShop.Model.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -34,7 +36,7 @@ namespace HousewareShop.Data
         public DbSet<Tag> Tags { set; get; }
 
         public DbSet<VisitorStatistic> VisitorStatistics { set; get; }
-
+        public DbSet<Error> Errors { set; get; }
 
         protected override void OnModelCreating(DbModelBuilder builder)
         {

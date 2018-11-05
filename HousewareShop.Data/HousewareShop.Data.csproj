@@ -60,11 +60,16 @@
     <Compile Include="Migrations\201811051632196_DBAddss.Designer.cs">
       <DependentUpon>201811051632196_DBAddss.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811051817244_AddTableError.cs" />
+    <Compile Include="Migrations\201811051817244_AddTableError.Designer.cs">
+      <DependentUpon>201811051817244_AddTableError.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ErrorRepository.cs" />
     <Compile Include="Repositories\FooterRepository.cs" />
     <Compile Include="Repositories\MenuGroupRepository.cs" />
     <Compile Include="Repositories\OrderDetailRepository.cs" />
@@ -115,6 +120,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201811051632196_DBAddss.resx">
       <DependentUpon>201811051632196_DBAddss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811051817244_AddTableError.resx">
+      <DependentUpon>201811051817244_AddTableError.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
