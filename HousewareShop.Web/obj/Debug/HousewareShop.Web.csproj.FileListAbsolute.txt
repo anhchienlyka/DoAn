@@ -282,3 +282,5 @@ D:\C#-FPT\DoAn\HousewareShop.Web\bin\Autofac.Integration.Mvc.xml
 D:\C#-FPT\DoAn\HousewareShop.Web\bin\Autofac.Integration.WebApi.xml
 D:\C#-FPT\DoAn\HousewareShop.Web\bin\Microsoft.Owin.xml
 D:\C#-FPT\DoAn\HousewareShop.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\AutoMapper.dll
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\AutoMapper.xml
