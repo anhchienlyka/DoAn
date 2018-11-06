@@ -150,3 +150,12 @@ D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Moq.dll
 D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\EntityFramework.xml
 D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\EntityFramework.SqlServer.xml
 D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Moq.xml
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Microsoft.Owin.dll
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Owin.dll
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Autofac.dll
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Autofac.Integration.Mvc.dll
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Autofac.Integration.WebApi.dll
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Microsoft.Owin.xml
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Autofac.xml
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Autofac.Integration.Mvc.xml
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Autofac.Integration.WebApi.xml

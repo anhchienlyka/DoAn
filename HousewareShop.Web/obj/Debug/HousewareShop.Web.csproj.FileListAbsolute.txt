@@ -271,3 +271,14 @@ D:\C#-FPT\DoAn\HousewareShop.Web\obj\Debug\HousewareShop.Web.csproj.CoreCompileI
 D:\C#-FPT\DoAn\HousewareShop.Web\obj\Debug\HousewareShop.Web.csproj.CopyComplete
 D:\C#-FPT\DoAn\HousewareShop.Web\obj\Debug\HousewareShop.Web.dll
 D:\C#-FPT\DoAn\HousewareShop.Web\obj\Debug\HousewareShop.Web.pdb
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\Autofac.dll
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\Autofac.Integration.Mvc.dll
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\Autofac.Integration.WebApi.dll
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\Microsoft.Owin.dll
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\Owin.dll
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\Autofac.xml
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\Autofac.Integration.Mvc.xml
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\Autofac.Integration.WebApi.xml
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\Microsoft.Owin.xml
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
