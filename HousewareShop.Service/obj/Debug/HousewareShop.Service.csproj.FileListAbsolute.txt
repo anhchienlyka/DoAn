@@ -45,3 +45,7 @@ D:\C#-FPT\DoAn\HousewareShop.Service\obj\Debug\HousewareShop.Service.csproj.Core
 D:\C#-FPT\DoAn\HousewareShop.Service\obj\Debug\HousewareShop.Service.csproj.CopyComplete
 D:\C#-FPT\DoAn\HousewareShop.Service\obj\Debug\HousewareShop.Service.dll
 D:\C#-FPT\DoAn\HousewareShop.Service\obj\Debug\HousewareShop.Service.pdb
+D:\C#-FPT\DoAn\HousewareShop.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\C#-FPT\DoAn\HousewareShop.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\C#-FPT\DoAn\HousewareShop.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\C#-FPT\DoAn\HousewareShop.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml

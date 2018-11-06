@@ -37,3 +37,8 @@ D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.pdb
 D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.DBAddss.resources
 D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.csproj.GenerateResource.cache
 D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.AddTableError.resources
+D:\C#-FPT\DoAn\HousewareShop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\C#-FPT\DoAn\HousewareShop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\C#-FPT\DoAn\HousewareShop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\C#-FPT\DoAn\HousewareShop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.RigiterIdentity.resources

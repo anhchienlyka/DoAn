@@ -284,3 +284,15 @@ D:\C#-FPT\DoAn\HousewareShop.Web\bin\Microsoft.Owin.xml
 D:\C#-FPT\DoAn\HousewareShop.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
 D:\C#-FPT\DoAn\HousewareShop.Web\bin\AutoMapper.dll
 D:\C#-FPT\DoAn\HousewareShop.Web\bin\AutoMapper.xml
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\Microsoft.Owin.Security.dll
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\Microsoft.Owin.Security.xml
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\Microsoft.Owin.Security.OAuth.xml

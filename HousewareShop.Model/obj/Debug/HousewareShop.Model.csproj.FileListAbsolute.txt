@@ -30,3 +30,7 @@ D:\C#-FPT\DoAn\HousewareShop.Model\obj\Debug\HousewareShop.Model.csproj.CopyComp
 D:\C#-FPT\DoAn\HousewareShop.Model\obj\Debug\HousewareShop.Model.dll
 D:\C#-FPT\DoAn\HousewareShop.Model\obj\Debug\HousewareShop.Model.pdb
 D:\C#-FPT\DoAn\HousewareShop.Model\obj\Debug\HousewareShop.Model.csprojAssemblyReference.cache
+D:\C#-FPT\DoAn\HousewareShop.Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\C#-FPT\DoAn\HousewareShop.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\C#-FPT\DoAn\HousewareShop.Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\C#-FPT\DoAn\HousewareShop.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml

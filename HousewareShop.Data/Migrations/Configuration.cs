@@ -1,5 +1,8 @@
 namespace HousewareShop.Data.Migrations
 {
+    using HousewareShop.Model.Models;
+    using Microsoft.AspNet.Identity;
+    using Microsoft.AspNet.Identity.EntityFramework;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -14,18 +17,32 @@ namespace HousewareShop.Data.Migrations
 
         protected override void Seed(HousewareShop.Data.HousewareShopDbContext context)
         {
-            //  This method will be called after migrating to the latest version.
+            var manager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new HousewareShopDbContext()));
 
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data. E.g.
-            //
-            //    context.People.AddOrUpdate(
-            //      p => p.FullName,
-            //      new Person { FullName = "Andrew Peters" },
-            //      new Person { FullName = "Brice Lambson" },
-            //      new Person { FullName = "Rowan Miller" }
-            //    );
-            //
+            var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(new HousewareShopDbContext()));
+
+            var user = new ApplicationUser()
+            {
+                UserName = "chienpham",
+                Email = "chienphamnd@gmail.com",
+                EmailConfirmed = true,
+                Birthday = DateTime.Now,
+                FullName = "Technology Education"
+
+            };
+
+            manager.Create(user, "123654$");
+
+            if (!roleManager.Roles.Any())
+            {
+                roleManager.Create(new IdentityRole { Name = "Admin" });
+                roleManager.Create(new IdentityRole { Name = "User" });
+            }
+
+            var adminUser = manager.FindByEmail("chienphamnd@gmail.com");
+
+            manager.AddToRoles(adminUser.Id, new string[] { "Admin", "User" });
+
         }
     }
 }

@@ -1,6 +1,7 @@
 ﻿
 using HousewareShop.Model;
 using HousewareShop.Model.Models;
+using Microsoft.AspNet.Identity.EntityFramework;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace HousewareShop.Data
 {
-   public class HousewareShopDbContext : DbContext
+   public class HousewareShopDbContext : IdentityDbContext<ApplicationUser>
     {
         public HousewareShopDbContext() : base("HousewareShopDbContext")
         {
@@ -38,9 +39,14 @@ namespace HousewareShop.Data
         public DbSet<VisitorStatistic> VisitorStatistics { set; get; }
         public DbSet<Error> Errors { set; get; }
 
+        public static HousewareShopDbContext Create()
+        {
+            return new HousewareShopDbContext();
+        }
         protected override void OnModelCreating(DbModelBuilder builder)
         {
-
+            builder.Entity<IdentityUserRole>().HasKey(i => new { i.UserId, i.RoleId });
+            builder.Entity<IdentityUserLogin>().HasKey(i => i.UserId);
         }
     }
 }

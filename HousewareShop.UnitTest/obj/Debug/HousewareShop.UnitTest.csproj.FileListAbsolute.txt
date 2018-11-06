@@ -159,3 +159,17 @@ D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Microsoft.Owin.xml
 D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Autofac.xml
 D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Autofac.Integration.Mvc.xml
 D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Autofac.Integration.WebApi.xml
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Microsoft.Owin.Security.dll
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\AutoMapper.dll
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Microsoft.Owin.Security.xml
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\AutoMapper.xml
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Microsoft.Owin.Security.OAuth.xml
