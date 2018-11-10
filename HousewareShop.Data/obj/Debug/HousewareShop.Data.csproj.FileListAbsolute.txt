@@ -42,3 +42,4 @@ D:\C#-FPT\DoAn\HousewareShop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFram
 D:\C#-FPT\DoAn\HousewareShop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 D:\C#-FPT\DoAn\HousewareShop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.RigiterIdentity.resources
+D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.Updatedb.resources

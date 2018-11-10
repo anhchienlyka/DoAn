@@ -1,9 +1,11 @@
-namespace HousewareShop.Data.Migrations
+﻿namespace HousewareShop.Data.Migrations
 {
+    using HousewareShop.Model;
     using HousewareShop.Model.Models;
     using Microsoft.AspNet.Identity;
     using Microsoft.AspNet.Identity.EntityFramework;
     using System;
+    using System.Collections.Generic;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
@@ -13,35 +15,45 @@ namespace HousewareShop.Data.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
+            AutomaticMigrationDataLossAllowed = true;
         }
 
         protected override void Seed(HousewareShop.Data.HousewareShopDbContext context)
         {
-            var manager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new HousewareShopDbContext()));
+            DbContextSeed(context);
 
-            var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(new HousewareShopDbContext()));
-
-            var user = new ApplicationUser()
+        }
+        private void DbContextSeed(HousewareShopDbContext context, int retry = 0)
+        {
+            int retryForAvaiability = retry;
+            try
             {
-                UserName = "chienpham",
-                Email = "chienphamnd@gmail.com",
-                EmailConfirmed = true,
-                Birthday = DateTime.Now,
-                FullName = "Technology Education"
-
-            };
-
-            manager.Create(user, "123654$");
-
-            if (!roleManager.Roles.Any())
-            {
-                roleManager.Create(new IdentityRole { Name = "Admin" });
-                roleManager.Create(new IdentityRole { Name = "User" });
+                CreateProductCategorySample(context);
             }
+            catch (Exception)
+            {
+                if (retryForAvaiability < 10)
+                {
+                    retryForAvaiability++;
 
-            var adminUser = manager.FindByEmail("chienphamnd@gmail.com");
-
-            manager.AddToRoles(adminUser.Id, new string[] { "Admin", "User" });
+                    DbContextSeed(context, retryForAvaiability);
+                }
+            }
+        }
+        private void CreateProductCategorySample(HousewareShop.Data.HousewareShopDbContext context)
+        {
+            if (context.ProductCategories.Count() == 0)
+            {
+                List<ProductCategory> listProductCategory = new List<ProductCategory>()
+            {
+                new ProductCategory() { Name="Điện lạnh",Alias="dien-lanh",Status=true },
+                 new ProductCategory() { Name="Viễn thông",Alias="vien-thong",Status=true },
+                  new ProductCategory() { Name="Đồ gia dụng",Alias="do-gia-dung",Status=true },
+                   new ProductCategory() { Name="Mỹ phẩm",Alias="my-pham",Status=true }
+            };
+                context.ProductCategories.AddRange(listProductCategory);
+                context.SaveChanges();
+            }
 
         }
     }

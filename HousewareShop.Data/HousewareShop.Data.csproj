@@ -74,6 +74,10 @@
     <Compile Include="Migrations\201811061406523_RigiterIdentity.Designer.cs">
       <DependentUpon>201811061406523_RigiterIdentity.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811100534300_Updatedb.cs" />
+    <Compile Include="Migrations\201811100534300_Updatedb.Designer.cs">
+      <DependentUpon>201811100534300_Updatedb.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
@@ -136,6 +140,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811061406523_RigiterIdentity.resx">
       <DependentUpon>201811061406523_RigiterIdentity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811100534300_Updatedb.resx">
+      <DependentUpon>201811100534300_Updatedb.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
