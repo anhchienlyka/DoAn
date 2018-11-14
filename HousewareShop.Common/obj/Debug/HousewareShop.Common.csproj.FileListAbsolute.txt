@@ -15,4 +15,3 @@ D:\C#-FPT\DoAn\HousewareShop.Common\bin\Debug\HousewareShop.Common.pdb
 D:\C#-FPT\DoAn\HousewareShop.Common\obj\Debug\HousewareShop.Common.csproj.CoreCompileInputs.cache
 D:\C#-FPT\DoAn\HousewareShop.Common\obj\Debug\HousewareShop.Common.dll
 D:\C#-FPT\DoAn\HousewareShop.Common\obj\Debug\HousewareShop.Common.pdb
-D:\C#-FPT\DoAn\HousewareShop.Common\obj\Debug\HousewareShop.Common.csprojAssemblyReference.cache

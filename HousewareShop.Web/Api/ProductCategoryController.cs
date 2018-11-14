@@ -16,6 +16,7 @@ namespace HousewareShop.Web.Api
     [RoutePrefix("api/productcategory")]
     public class ProductCategoryController : ApiControllerBase
     {
+        #region Initialize
         private IProductCategoryService _productCategoryService;
 
         public ProductCategoryController(IErrorService errorService, IProductCategoryService productCategoryService)
@@ -23,6 +24,9 @@ namespace HousewareShop.Web.Api
         {
             this._productCategoryService = productCategoryService;
         }
+
+        #endregion
+
         [Route("getallparents")]
         [HttpGet]
         public HttpResponseMessage GetAll(HttpRequestMessage request)
@@ -96,7 +100,7 @@ namespace HousewareShop.Web.Api
                 {
                     var newProductCategory = new ProductCategory();
                     newProductCategory.UpdateProductCategory(productCategoryVm);
-
+                    newProductCategory.CreatedDate = DateTime.Now;
                     _productCategoryService.Add(newProductCategory);
                     _productCategoryService.Save();
 
@@ -107,6 +111,7 @@ namespace HousewareShop.Web.Api
                 return response;
             });
         }
+
         [Route("update")]
         [HttpPut]
         [AllowAnonymous]
@@ -136,5 +141,31 @@ namespace HousewareShop.Web.Api
                 return response;
             });
         }
+
+        [Route("delete")]
+        [HttpDelete]
+        [AllowAnonymous]
+        public HttpResponseMessage Delete(HttpRequestMessage request, int id)
+        {
+            return CreateHttpResponse(request, () =>
+            {
+                HttpResponseMessage response = null;
+                if (!ModelState.IsValid)
+                {
+                    response = request.CreateResponse(HttpStatusCode.BadRequest, ModelState);
+                }
+                else
+                {
+                    var oldProductCategory = _productCategoryService.Delete(id);
+                    _productCategoryService.Save();
+
+                    var responseData = Mapper.Map<ProductCategory, ProductCategoryViewModel>(oldProductCategory);
+                    response = request.CreateResponse(HttpStatusCode.Created, responseData);
+                }
+
+                return response;
+            });
+        }
+
     }
 }
