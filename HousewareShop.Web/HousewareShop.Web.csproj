@@ -59,6 +59,10 @@
     <Reference Include="AutoMapper, Version=4.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
       <HintPath>..\packages\AutoMapper.4.2.1\lib\net45\AutoMapper.dll</HintPath>
     </Reference>
+    <Reference Include="CKFinder, Version=2.6.0.2792, Culture=neutral, PublicKeyToken=579e7adc719a1423, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libs\CKFinder.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -206,6 +210,7 @@
     <Compile Include="Api\AccountController.cs" />
     <Compile Include="Api\PostCategoryController.cs" />
     <Compile Include="Api\ProductCategoryController.cs" />
+    <Compile Include="Api\ProductController.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
@@ -3412,6 +3417,7 @@
     <Content Include="Assets\admin\libs\ckfinder\plugins\fileeditor\codemirror\addon\mode\overlay.js" />
     <Content Include="Assets\admin\libs\ckfinder\plugins\fileeditor\codemirror\lib\codemirror.css" />
     <Content Include="Assets\admin\libs\ckfinder\plugins\fileeditor\codemirror\lib\codemirror.js" />
+    <Content Include="Assets\admin\libs\ckfinder\plugins\fileeditor\codemirror\LICENSE" />
     <Content Include="Assets\admin\libs\ckfinder\plugins\fileeditor\codemirror\mode\clike\clike.js" />
     <Content Include="Assets\admin\libs\ckfinder\plugins\fileeditor\codemirror\mode\css\css.js" />
     <Content Include="Assets\admin\libs\ckfinder\plugins\fileeditor\codemirror\mode\htmlmixed\htmlmixed.js" />
@@ -3447,7 +3453,11 @@
     <Content Include="Assets\admin\libs\ckfinder\plugins\imageresize\plugin.js" />
     <Content Include="Assets\admin\libs\ckfinder\plugins\watermark\logo.gif" />
     <Content Include="Assets\admin\libs\ckfinder\skins\bootstrap\app.css" />
+    <Content Include="Assets\admin\libs\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Assets\admin\libs\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Assets\admin\libs\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Assets\admin\libs\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Assets\admin\libs\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Assets\admin\libs\ckfinder\skins\bootstrap\host.css" />
     <Content Include="Assets\admin\libs\ckfinder\skins\bootstrap\images\icons\16\ai.png" />
     <Content Include="Assets\admin\libs\ckfinder\skins\bootstrap\images\icons\16\avi.png" />
@@ -5142,9 +5152,28 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Libs\CKFinder.dll" />
     <Content Include="obj\Debug\HousewareShop.Web.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\HousewareShop.Web.dll" />
     <Content Include="obj\Debug\HousewareShop.Web.pdb" />
+    <Content Include="UploadedFiles\files\89edf66b7c36aa5659dd54f19c273c595a15037dd187a.jpg" />
+    <Content Include="UploadedFiles\images\091714_2032_Skhcnhaugi22.png" />
+    <Content Include="UploadedFiles\images\ba - Copy - Copy.jpg" />
+    <Content Include="UploadedFiles\images\bo.jpg" />
+    <Content Include="UploadedFiles\images\bott.jpg" />
+    <Content Include="UploadedFiles\images\bottle - Copy.jpg" />
+    <Content Include="UploadedFiles\images\ch.jpg" />
+    <Content Include="UploadedFiles\images\LOGOTEDU.jpg" />
+    <Content Include="UploadedFiles\images\s4.jpg" />
+    <Content Include="UploadedFiles\_thumbs\Files\89edf66b7c36aa5659dd54f19c273c595a15037dd187a.jpg" />
+    <Content Include="UploadedFiles\_thumbs\Images\091714_2032_Skhcnhaugi22.png" />
+    <Content Include="UploadedFiles\_thumbs\Images\ba - Copy - Copy.jpg" />
+    <Content Include="UploadedFiles\_thumbs\Images\bo.jpg" />
+    <Content Include="UploadedFiles\_thumbs\Images\bott.jpg" />
+    <Content Include="UploadedFiles\_thumbs\Images\bottle - Copy.jpg" />
+    <Content Include="UploadedFiles\_thumbs\Images\ch.jpg" />
+    <Content Include="UploadedFiles\_thumbs\Images\LOGOTEDU.jpg" />
+    <Content Include="UploadedFiles\_thumbs\Images\s4.jpg" />
     <Content Include="Views\Web.config" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -5349,11 +5378,6 @@
     <Content Include="Assets\admin\libs\ckeditor\samples\toolbarconfigurator\lib\codemirror\LICENSE" />
     <Content Include="Assets\admin\libs\ckeditor\skins\kama\readme.md" />
     <Content Include="Assets\admin\libs\ckeditor\skins\moono\readme.md" />
-    <Content Include="Assets\admin\libs\ckfinder\plugins\fileeditor\codemirror\LICENSE" />
-    <Content Include="Assets\admin\libs\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Assets\admin\libs\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="Assets\admin\libs\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Assets\admin\libs\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Assets\admin\libs\fastclick\.bower.json" />
     <Content Include="Assets\admin\libs\fastclick\bower.json" />
     <Content Include="Assets\admin\libs\fastclick\LICENSE" />

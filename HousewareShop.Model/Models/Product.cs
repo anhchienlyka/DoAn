@@ -45,8 +45,11 @@ namespace HousewareShop.Model
         public bool? HomeFlag { set; get; }
         public bool? HotFlag { set; get; }
         public int? ViewCount { set; get; }
-
+        public string Tags { set; get; }
+        public int Quantity { set; get; }
+        public decimal OriginalPrice { set; get; }
         [ForeignKey("CategoryID")]
         public virtual ProductCategory ProductCategory { set; get; }
+        //public virtual IEnumerable<ProductTag> ProductTags { set; get; }
     }
 }
