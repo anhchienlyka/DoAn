@@ -5516,6 +5516,7 @@
     <Content Include="bin\HousewareShop.Data.dll.config" />
     <Content Include="bin\HousewareShop.Model.dll.config" />
     <Content Include="app\components\product_categories\productCategories.module.js" />
+    <Content Include="AppSettings.config" />
     <None Include="bin\HousewareShop.Web.dll.config" />
     <Content Include="bin\roslyn\csc.exe.config" />
     <Content Include="bin\roslyn\csc.rsp" />
@@ -5530,9 +5531,11 @@
     <Content Include="obj\Debug\HousewareShop.Web.csproj.CopyComplete" />
     <Content Include="obj\Debug\HousewareShop.Web.csproj.CoreCompileInputs.cache" />
     <Content Include="obj\Debug\HousewareShop.Web.csprojAssemblyReference.cache" />
+    <Content Include="ConnectionStrings.config" />
     <None Include="packages.config" />
     <Content Include="Views\Admin\Index.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\Layouts.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HousewareShop.Common\HousewareShop.Common.csproj">
