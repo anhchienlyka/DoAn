@@ -12,6 +12,7 @@ using HousewareShop.Web.Infrastructure.Extensions;
 namespace TeduShop.Web.Api
 {
     [RoutePrefix("api/postcategory")]
+    [Authorize]//danh dau yeu cau dang nhap.khi reque den product ma chưa login sẽ tra ve ngay trang login  
     public class PostCategoryController : ApiControllerBase
     {
         IPostCategoryService _postCategoryService;

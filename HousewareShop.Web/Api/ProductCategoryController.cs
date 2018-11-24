@@ -15,6 +15,7 @@ using TeduShop.Web.Models;
 namespace HousewareShop.Web.Api
 {
     [RoutePrefix("api/productcategory")]
+    [Authorize]//danh dau yeu cau dang nhap.khi reque den product ma chưa login sẽ tra ve ngay trang login
     public class ProductCategoryController : ApiControllerBase
     {
         #region Initialize

@@ -16,6 +16,7 @@ using TeduShop.Web.Models;
 namespace HousewareShop.Web.Api
 {
     [RoutePrefix("api/product")]
+    [Authorize]//danh dau yeu cau dang nhap.khi reque den product ma chưa login sẽ tra ve ngay trang login
     public class ProductController : ApiControllerBase
     {
         #region Initialize
@@ -103,6 +104,7 @@ namespace HousewareShop.Web.Api
                     var newProduct = new Product();
                     newProduct.UpdateProduct(productVm);
                     newProduct.CreatedDate = DateTime.Now;
+                    newProduct.CreatedBy = User.Identity.Name;//lay ra user da tạo sản phẩm
                     _productService.Add(newProduct);
                     _productService.Save();
 
@@ -132,7 +134,7 @@ namespace HousewareShop.Web.Api
 
                     dbProduct.UpdateProduct(productVm);
                     dbProduct.UpdatedDate = DateTime.Now;
-
+                    dbProduct.UpdatedBy = User.Identity.Name;//lay ra user da cap nhat san phảm
                     _productService.Update(dbProduct);
                     _productService.Save();
 
