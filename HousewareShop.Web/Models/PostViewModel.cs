@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TeduShop.Web.Models
+namespace HousewareShop.Web.Models
 {
     public class PostViewModel
     {

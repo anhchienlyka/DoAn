@@ -1722,3 +1722,10 @@ img.banner-bag {
 	padding: 0 0 0 6.2em;
 }
 }
+.wmuSlider .wmuSliderWrapper article img {
+    max-width: 120%;
+    width: 380px;
+    height: 338px;
+    display: block;
+    margin-top: 45px;
+}

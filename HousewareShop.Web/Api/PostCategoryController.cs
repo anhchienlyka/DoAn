@@ -1,21 +1,21 @@
-﻿using System.Collections.Generic;
+﻿using AutoMapper;
+using HousewareShop.Model;
+using HousewareShop.Service;
+using HousewareShop.Web.Infrastructure.Core;
+using HousewareShop.Web.Infrastructure.Extensions;
+using HousewareShop.Web.Models;
+using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using AutoMapper;
-using HousewareShop.Model;
-using HousewareShop.Model.Models;
-using HousewareShop.Service;
-using HousewareShop.Web.Infrastructure.Core;
-using TeduShop.Web.Models;
-using HousewareShop.Web.Infrastructure.Extensions;
-namespace TeduShop.Web.Api
+
+namespace HousewareShop.Web.Api
 {
     [RoutePrefix("api/postcategory")]
-    [Authorize]//danh dau yeu cau dang nhap.khi reque den product ma chưa login sẽ tra ve ngay trang login  
+    [Authorize]//danh dau yeu cau dang nhap.khi reque den product ma chưa login sẽ tra ve ngay trang login
     public class PostCategoryController : ApiControllerBase
     {
-        IPostCategoryService _postCategoryService;
+        private IPostCategoryService _postCategoryService;
 
         public PostCategoryController(IErrorService errorService, IPostCategoryService postCategoryService) :
             base(errorService)
@@ -32,7 +32,6 @@ namespace TeduShop.Web.Api
                 var listPostCategoryVm = Mapper.Map<List<PostCategoryViewModel>>(listCategory);
 
                 HttpResponseMessage response = request.CreateResponse(HttpStatusCode.OK, listPostCategoryVm);
-
 
                 return response;
             });
@@ -61,6 +60,7 @@ namespace TeduShop.Web.Api
                 return response;
             });
         }
+
         [Route("update")]
         public HttpResponseMessage Put(HttpRequestMessage request, PostCategoryViewModel postCategoryVm)
         {
@@ -79,7 +79,6 @@ namespace TeduShop.Web.Api
                     _postCategoryService.Save();
 
                     response = request.CreateResponse(HttpStatusCode.OK);
-
                 }
                 return response;
             });
@@ -100,7 +99,6 @@ namespace TeduShop.Web.Api
                     _postCategoryService.Save();
 
                     response = request.CreateResponse(HttpStatusCode.OK);
-
                 }
                 return response;
             });

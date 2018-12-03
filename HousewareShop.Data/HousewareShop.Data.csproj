@@ -82,6 +82,14 @@
     <Compile Include="Migrations\201811151202073_AddTag.Designer.cs">
       <DependentUpon>201811151202073_AddTag.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812031142433_addbdnew.cs" />
+    <Compile Include="Migrations\201812031142433_addbdnew.Designer.cs">
+      <DependentUpon>201812031142433_addbdnew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812031626154_addbdnews.cs" />
+    <Compile Include="Migrations\201812031626154_addbdnews.Designer.cs">
+      <DependentUpon>201812031626154_addbdnews.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
@@ -130,6 +138,10 @@
     <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\HousewareShop.Common\HousewareShop.Common.csproj">
+      <Project>{a6c73f66-7c21-4120-b10e-549d611929c6}</Project>
+      <Name>HousewareShop.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\HousewareShop.Model\HousewareShop.Model.csproj">
       <Project>{5061A127-7661-4FAF-99D0-98A6A2A95D98}</Project>
       <Name>HousewareShop.Model</Name>
@@ -150,6 +162,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811151202073_AddTag.resx">
       <DependentUpon>201811151202073_AddTag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812031142433_addbdnew.resx">
+      <DependentUpon>201812031142433_addbdnew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812031626154_addbdnews.resx">
+      <DependentUpon>201812031626154_addbdnews.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

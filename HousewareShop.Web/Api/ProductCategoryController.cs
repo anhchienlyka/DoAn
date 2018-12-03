@@ -10,7 +10,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Script.Serialization;
-using TeduShop.Web.Models;
+using HousewareShop.Web.Models;
 
 namespace HousewareShop.Web.Api
 {

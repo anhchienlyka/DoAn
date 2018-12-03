@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using TeduShop.Web.Models;
+using HousewareShop.Web.Models;
 
 namespace HousewareShop.Web.Mappings
 {
@@ -20,7 +20,7 @@ namespace HousewareShop.Web.Mappings
             Mapper.CreateMap<ProductCategory, ProductCategoryViewModel>();
             Mapper.CreateMap<Product, ProductViewModel>();
             Mapper.CreateMap<ProductTag, ProductTagViewModel>();
-            //Mapper.CreateMap<Footer, FooterViewModel>();
+            Mapper.CreateMap<Footer, FooterViewModel>();
             Mapper.CreateMap<Slide, SlideViewModel>();
             Mapper.CreateMap<Page, PageViewModel>();
             //Mapper.CreateMap<ContactDetail, ContactDetailViewModel>();

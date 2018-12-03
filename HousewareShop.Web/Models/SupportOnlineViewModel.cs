@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace TeduShop.Web.Models
+namespace HousewareShop.Web.Models
 {
     public class SupportOnlineViewModel
     {

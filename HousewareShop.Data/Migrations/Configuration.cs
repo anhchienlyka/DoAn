@@ -1,5 +1,6 @@
 ﻿namespace HousewareShop.Data.Migrations
 {
+    using HousewareShop.Common;
     using HousewareShop.Model;
     using HousewareShop.Model.Models;
     using Microsoft.AspNet.Identity;
@@ -55,6 +56,13 @@
                 context.SaveChanges();
             }
 
+        }
+        private void CreateFooter(HousewareShopDbContext context)
+        {
+            if (context.Footers.Count(x => x.ID == CommonConstants.DefaultFooterId) == 0)
+            {
+                string content = "";
+            }
         }
     }
 }

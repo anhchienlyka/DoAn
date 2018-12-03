@@ -44,3 +44,7 @@ D:\C#-FPT\DoAn\HousewareShop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFram
 D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.RigiterIdentity.resources
 D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.Updatedb.resources
 D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.AddTag.resources
+D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.addbdnew.resources
+D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.addbdnews.resources
+D:\C#-FPT\DoAn\HousewareShop.Data\bin\Debug\HousewareShop.Common.dll
+D:\C#-FPT\DoAn\HousewareShop.Data\bin\Debug\HousewareShop.Common.pdb
