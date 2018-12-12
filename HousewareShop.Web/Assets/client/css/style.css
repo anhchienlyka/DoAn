@@ -1729,3 +1729,6 @@ img.banner-bag {
     display: block;
     margin-top: 45px;
 }
+.img-arrow {
+    padding: 0 0 0 8em;
+}

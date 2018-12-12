@@ -62,33 +62,9 @@
     <Compile Include="Infrastructure\IUnitOfWork.cs" />
     <Compile Include="Infrastructure\RepositoryBase.cs" />
     <Compile Include="Infrastructure\UnitOfWork.cs" />
-    <Compile Include="Migrations\201811051632196_DBAddss.cs" />
-    <Compile Include="Migrations\201811051632196_DBAddss.Designer.cs">
-      <DependentUpon>201811051632196_DBAddss.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201811051817244_AddTableError.cs" />
-    <Compile Include="Migrations\201811051817244_AddTableError.Designer.cs">
-      <DependentUpon>201811051817244_AddTableError.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201811061406523_RigiterIdentity.cs" />
-    <Compile Include="Migrations\201811061406523_RigiterIdentity.Designer.cs">
-      <DependentUpon>201811061406523_RigiterIdentity.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201811100534300_Updatedb.cs" />
-    <Compile Include="Migrations\201811100534300_Updatedb.Designer.cs">
-      <DependentUpon>201811100534300_Updatedb.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201811151202073_AddTag.cs" />
-    <Compile Include="Migrations\201811151202073_AddTag.Designer.cs">
-      <DependentUpon>201811151202073_AddTag.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201812031142433_addbdnew.cs" />
-    <Compile Include="Migrations\201812031142433_addbdnew.Designer.cs">
-      <DependentUpon>201812031142433_addbdnew.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201812031626154_addbdnews.cs" />
-    <Compile Include="Migrations\201812031626154_addbdnews.Designer.cs">
-      <DependentUpon>201812031626154_addbdnews.cs</DependentUpon>
+    <Compile Include="Migrations\201812101130072_addNewDB.cs" />
+    <Compile Include="Migrations\201812101130072_addNewDB.Designer.cs">
+      <DependentUpon>201812101130072_addNewDB.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
@@ -148,26 +124,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201811051632196_DBAddss.resx">
-      <DependentUpon>201811051632196_DBAddss.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201811051817244_AddTableError.resx">
-      <DependentUpon>201811051817244_AddTableError.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201811061406523_RigiterIdentity.resx">
-      <DependentUpon>201811061406523_RigiterIdentity.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201811100534300_Updatedb.resx">
-      <DependentUpon>201811100534300_Updatedb.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201811151202073_AddTag.resx">
-      <DependentUpon>201811151202073_AddTag.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201812031142433_addbdnew.resx">
-      <DependentUpon>201812031142433_addbdnew.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201812031626154_addbdnews.resx">
-      <DependentUpon>201812031626154_addbdnews.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201812101130072_addNewDB.resx">
+      <DependentUpon>201812101130072_addNewDB.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

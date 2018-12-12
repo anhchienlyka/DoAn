@@ -7,13 +7,13 @@ namespace HousewareShop.Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class addbdnews : IMigrationMetadata
+    public sealed partial class addNewDB : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(addbdnews));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(addNewDB));
         
         string IMigrationMetadata.Id
         {
-            get { return "201812031626154_addbdnews"; }
+            get { return "201812101130072_addNewDB"; }
         }
         
         string IMigrationMetadata.Source
