@@ -9,6 +9,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using HousewareShop.Common;
+using System.Web.Script.Serialization;
+
 namespace HousewareShop.Web.Controllers
 {
     public class ProductController : Controller
@@ -23,7 +25,14 @@ namespace HousewareShop.Web.Controllers
         // GET: Product
         public ActionResult Detail(int productId)
         {
-            return View();
+            var productModel = _productService.GetById(productId);
+            var viewModel = Mapper.Map<Product, ProductViewModel>(productModel);
+            var relatedProduct = _productService.GetReatedProducts(productId, 6);
+            ViewBag.RelatedProducts = Mapper.Map<IEnumerable<Product>, IEnumerable<ProductViewModel>>(relatedProduct);
+
+            List<string> listImages = new JavaScriptSerializer().Deserialize<List<string>>(viewModel.MoreImages);
+            ViewBag.MoreImages = listImages;
+            return View(viewModel);
         }
         public ActionResult Category(int categoryId, int page = 1, string sort = "")
         {
@@ -46,10 +55,33 @@ namespace HousewareShop.Web.Controllers
 
             return View(paginationSet);
         }
-        //public ActionResult Category2(int? Id)
-        //{
-        //    ViewBag.id = Id;
-        //    return View();
-        //}
+        public ActionResult Search(string keyword, int page = 1, string sort = "")
+        {
+            int pageSize = int.Parse(ConfigHelper.GetByKey("PageSize"));
+            int totalRow = 0;
+            var productModel = _productService.Search(keyword, page, pageSize, sort, out totalRow);
+            var productViewModel = Mapper.Map<IEnumerable<Product>, IEnumerable<ProductViewModel>>(productModel);
+            int totalPage = (int)Math.Ceiling((double)totalRow / pageSize);
+
+            ViewBag.Keyword = keyword;
+            var paginationSet = new PaginationSet<ProductViewModel>()
+            {
+                Items = productViewModel,
+                MaxPage = int.Parse(ConfigHelper.GetByKey("MaxPage")),
+                Page = page,
+                TotalCount = totalRow,
+                TotalPages = totalPage
+            };
+
+            return View(paginationSet);
+        }
+        public JsonResult GetListProductByName(string keyword)
+        {
+            var model = _productService.GetListProductByName(keyword);
+            return Json(new
+            {
+                data = model
+            }, JsonRequestBehavior.AllowGet);
+        }
     }
 }

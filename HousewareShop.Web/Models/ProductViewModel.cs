@@ -26,7 +26,7 @@ namespace HousewareShop.Web.Models
         public decimal? PromotionPrice { set; get; }
 
         public int? Warranty { set; get; }
-
+        public int Quantity { set; get; }
         public string Description { set; get; }
 
         public string Content { set; get; }

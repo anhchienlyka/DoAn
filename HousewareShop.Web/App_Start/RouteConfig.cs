@@ -13,6 +13,12 @@ namespace HousewareShop.Web
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
             routes.MapRoute(
+             name: "Search",
+           url: "tim-kiem",
+            defaults: new { controller = "Product", action = "Search", id = UrlParameter.Optional },
+             namespaces: new string[] { "HousewareShop.Web.Controllers" }
+            );
+            routes.MapRoute(
          name: "Login",
          url: "dang-nhap.html",
          defaults: new { controller = "Account", action = "Login", id = UrlParameter.Optional },
@@ -33,8 +39,9 @@ namespace HousewareShop.Web
          );
             routes.MapRoute(
              name: "Product",
-             //url: "sanpham-chitiet/{productId}",
+            //url: "sanpham-chitiet/{productId}",
             url: "{alias}/{aliasProduct}-{productId}",
+            // url: "{alias}.p-{productId}.html",
              defaults: new { controller = "Product", action = "Detail", productId = UrlParameter.Optional },
                namespaces: new string[] { "HousewareShop.Web.Controllers" }
          );

@@ -1,10 +1,11 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>Big shope A Ecommerce Category Flat Bootstarp Resposive Website Template | Home :: w3layouts</title>
+    <title>Big shope A Ecommerce Category Flat Bootstarp Resposive Website Template</title>
     <link href="/Assets/client/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link href="~/Assets/client/font-awesome-4.6.3/css/font-awesome.css" rel="stylesheet" />
     @*<link href="~/Assets/client/css/bootstrap.css" rel="stylesheet" />*@
+    <link href="~/Assets/admin/libs/jquery-ui/themes/smoothness/jquery-ui.min.css" rel="stylesheet" />
     <!--theme-style-->
     <link href="/Assets/client/css/style.css" rel="stylesheet" type="text/css" media="all" />
     <!--//theme-style-->
@@ -13,8 +14,7 @@
     <!--fonts-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
     <!--//fonts-->
-    <script src="/Assets/client/js/jquery.min.js"></script>
-    <!--script-->
+  
 </head>
 <body>
     <!--header-->
@@ -23,9 +23,13 @@
     <div class="container">
         @RenderBody()
         @{ Html.RenderAction("Category", "Home");}
-    </div> 
+    </div>
     @{ Html.RenderAction("Footer", "Home");}
     <div class="clearfix"> </div>
+    <script src="/Assets/client/js/jquery.min.js"></script>
+    <script src="~/Assets/admin/libs/jquery-ui/jquery-ui.min.js"></script>
+    <script src="~/Assets/client/js/common.js"></script>
+    <!--script-->
     @RenderSection("footerJS", required: false)
 </body>
 </html>
