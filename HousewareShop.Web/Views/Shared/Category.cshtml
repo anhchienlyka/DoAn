@@ -3,13 +3,13 @@
     <div class="top-nav rsidebar span_1_of_left">
         <h3 class="cate">Danh mục sản phẩm</h3>
         <ul class="menu">
-            @foreach (var category in Model.Where(x => x.ParentID == null))
+            @foreach (var category in Model.Where(x => x.ParentID == null ))
             {
                 //var url = "/sanpham/"  + category.ID;
                 var url = "/" + category.Alias+"-" + category.ID ;
                 var childCategories = Model.Where(x => x.ParentID == category.ID);
                 <li>
-                    <a href="@url">@category.Name @(childCategories.Count() > 0 ? Html.Raw("<img class=\"arrow-img\" src=\"/Assets/client/images/arrow1.png\" alt=\"\" />") : Html.Raw("")) </a>
+                    <a href="#">@category.Name @(childCategories.Count() > 0 ? Html.Raw("<img class=\"arrow-img\" src=\"/Assets/client/images/arrow1.png\" alt=\"\" />") : Html.Raw("")) </a>
                     @if (childCategories.Count() > 0)
                     {
                         <ul class="cute">
@@ -31,8 +31,9 @@
         </ul>
     </div>
     <!--initiate accordion-->
-    @*<script type="text/javascript">
-          $(function () {
+    <script type="text/javascript">
+        $(function () {
+            console.log(111);
             var menu_ul = $('.menu > li > ul'),
                    menu_a = $('.menu > li > a');
             menu_ul.hide();
@@ -48,7 +49,7 @@
               }
             });
           });
-        </script>*@
+        </script>
     <div class="chain-grid menu-chain">
         <a href="single.html"><img class="img-responsive chain" src="/Assets/client/images/wat.jpg" alt="" /></a>
         <div class="grid-chain-bottom chain-watch">

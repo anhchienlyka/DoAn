@@ -66,12 +66,30 @@
     <Compile Include="Migrations\201812101130072_addNewDB.Designer.cs">
       <DependentUpon>201812101130072_addNewDB.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812171746316_addtag.cs" />
+    <Compile Include="Migrations\201812171746316_addtag.Designer.cs">
+      <DependentUpon>201812171746316_addtag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812191646520_conteacDetail.cs" />
+    <Compile Include="Migrations\201812191646520_conteacDetail.Designer.cs">
+      <DependentUpon>201812191646520_conteacDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812220208252_addtableFeeblacl.cs" />
+    <Compile Include="Migrations\201812220208252_addtableFeeblacl.Designer.cs">
+      <DependentUpon>201812220208252_addtableFeeblacl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812220214087_addtableFeeblaclg.cs" />
+    <Compile Include="Migrations\201812220214087_addtableFeeblaclg.Designer.cs">
+      <DependentUpon>201812220214087_addtableFeeblaclg.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ContactDetailRepository.cs" />
     <Compile Include="Repositories\ErrorRepository.cs" />
+    <Compile Include="Repositories\FeedbackRepository.cs" />
     <Compile Include="Repositories\FooterRepository.cs" />
     <Compile Include="Repositories\MenuGroupRepository.cs" />
     <Compile Include="Repositories\OrderDetailRepository.cs" />
@@ -126,6 +144,18 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201812101130072_addNewDB.resx">
       <DependentUpon>201812101130072_addNewDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812171746316_addtag.resx">
+      <DependentUpon>201812171746316_addtag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812191646520_conteacDetail.resx">
+      <DependentUpon>201812191646520_conteacDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812220208252_addtableFeeblacl.resx">
+      <DependentUpon>201812220208252_addtableFeeblacl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812220214087_addtableFeeblaclg.resx">
+      <DependentUpon>201812220214087_addtableFeeblaclg.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

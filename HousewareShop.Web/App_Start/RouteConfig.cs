@@ -12,6 +12,14 @@ namespace HousewareShop.Web
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            // BotDetect requests must not be routed
+            routes.IgnoreRoute("{*botdetect}", new { botdetect = @"(.*)BotDetectCaptcha\.ashx" });
+            routes.MapRoute(
+               name: "Contact",
+               url: "lien-he",
+               defaults: new { controller = "Contact", action = "Index", id = UrlParameter.Optional },
+               namespaces: new string[] { "HousewareShop.Web.Controllers" }
+              );
             routes.MapRoute(
              name: "Search",
            url: "tim-kiem",
@@ -25,27 +33,43 @@ namespace HousewareShop.Web
          namespaces: new string[] { "HousewareShop.Web.Controllers" }
      );
             routes.MapRoute(
-           name: "About",
-           url: "gioi-thieu.html",
-           defaults: new { controller = "About", action = "Index", id = UrlParameter.Optional },
-           namespaces: new string[] { "HousewareShop.Web.Controllers" }
-       );
+            name: "Register",
+            url: "dang-ky",
+            defaults: new { controller = "Account", action = "Register", id = UrlParameter.Optional },
+            namespaces: new string[] { "TeduShop.Web.Controllers" }
+        );
+            routes.MapRoute(
+            name: "Page",
+            url: "trang/{alias}",
+            //url: "gioi-thieu",
+            defaults: new { controller = "Page", action = "Index", alias = UrlParameter.Optional },
+            namespaces: new string[] { "HousewareShop.Web.Controllers" }
+        );
             routes.MapRoute(
              name: "Product_Category",
                  // url: "sanpham/{Id}",
-                 url: "{alias}-{categoryId}",
+                 url: "{alias}/{aliascategory}-{categoryId}",
              defaults: new { controller = "Product", action = "Category", categoryId = UrlParameter.Optional },
                namespaces: new string[] { "HousewareShop.Web.Controllers" }
          );
             routes.MapRoute(
-             name: "Product",
-            //url: "sanpham-chitiet/{productId}",
-            url: "{alias}/{aliasProduct}-{productId}",
-            // url: "{alias}.p-{productId}.html",
+             name: "Product",         
+            url: "{alias}/{aliascategory}/{aliasProduct}-{productId}",          
              defaults: new { controller = "Product", action = "Detail", productId = UrlParameter.Optional },
                namespaces: new string[] { "HousewareShop.Web.Controllers" }
          );
-
+            routes.MapRoute(
+             name: "TagList",
+             url: "tag/{tagId}.html",
+             defaults: new { controller = "Product", action = "ListByTag", tagId = UrlParameter.Optional },
+               namespaces: new string[] { "TeduShop.Web.Controllers" }
+         );
+            routes.MapRoute(
+               name: "Home",
+               url: "Index",
+               defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional },
+                 namespaces: new string[] { "HousewareShop.Web.Controllers" }
+           );
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",

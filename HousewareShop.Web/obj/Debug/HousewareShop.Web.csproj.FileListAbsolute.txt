@@ -210,6 +210,8 @@ D:\C#-FPT\DoAn\HousewareShop.Web\bin\roslyn\vbc.exe.config
 D:\C#-FPT\DoAn\HousewareShop.Web\bin\roslyn\vbc.rsp
 D:\C#-FPT\DoAn\HousewareShop.Web\bin\roslyn\VBCSCompiler.exe
 D:\C#-FPT\DoAn\HousewareShop.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\BotDetect.dll
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\BotDetect.Web.Mvc.dll
 D:\C#-FPT\DoAn\HousewareShop.Web\bin\CKFinder.dll
 D:\C#-FPT\DoAn\HousewareShop.Web\bin\HousewareShop.Common.dll
 D:\C#-FPT\DoAn\HousewareShop.Web\bin\HousewareShop.Data.dll

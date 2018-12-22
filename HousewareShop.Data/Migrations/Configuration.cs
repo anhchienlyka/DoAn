@@ -9,6 +9,8 @@
     using System.Collections.Generic;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
+    using System.Data.Entity.Validation;
+    using System.Diagnostics;
     using System.Linq;
 
     internal sealed class Configuration : DbMigrationsConfiguration<HousewareShop.Data.HousewareShopDbContext>
@@ -24,7 +26,8 @@
             DbContextSeed(context);
             CreateSlide(context);
             var manager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new HousewareShopDbContext()));
-
+            CreatePage(context);
+            CreateContactDetail(context);
             var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(new HousewareShopDbContext()));
 
             var user = new ApplicationUser()
@@ -32,7 +35,7 @@
                 UserName = "phamchien",
                 Email = "phamchien.international@gmail.com",
                 EmailConfirmed = true,
-               // BirthDay = DateTime.Now,
+                // BirthDay = DateTime.Now,
                 FullName = "Technology Education"
 
             };
@@ -147,6 +150,85 @@
             if (context.Footers.Count(x => x.ID == CommonConstants.DefaultFooterId) == 0)
             {
                 string content = "";
+            }
+        }
+        private void CreatePage(HousewareShopDbContext context)
+        {
+            if (context.Pages.Count() == 0)
+            {
+                try
+                {
+                    var page = new Page()
+                    {
+                        Name = "Giới thiệu",
+                        Alias = "gioi-thieu",
+                        Content = @"Cửa hàng gia dụng Hoàng Việt :
+</br>
+- Phân phối sỉ lẻ các mặt nhựa gia dụng : bàn nhựa , ghế nhựa , thùng đá nhựa ...
+</br>
+- Cung cấp sỉ lẻ các loại bàn ghế inox 201 , 304 với giá cạnh tranh , chất lượng đảm bảo 
+</br>
+- Phân phối sỉ lẻ các loại bàn ghế cafe : ghế cafe inox xếp vải bố , bàn ghế cafe giả mây.
+</br>
+- Nhà cung cấp các loại võng xếp : Duy Lợi , Duy Phương , Chấn Thái Sơn , Tín Thành .
+</br>
+- Bán các loại tô chén dĩa sứ , melamine , nhựa .
+</br>
+- Phân phối sỉ lẻ các loại ghế bố , giường xếp , giường gấp .",
+                        Status = true
+
+                    };
+                    context.Pages.Add(page);
+                    context.SaveChanges();
+                }
+                catch (DbEntityValidationException ex)
+                {
+                    foreach (var eve in ex.EntityValidationErrors)
+                    {
+                        Trace.WriteLine($"Entity of type \"{eve.Entry.Entity.GetType().Name}\" in state \"{eve.Entry.State}\" has the following validation error.");
+                        foreach (var ve in eve.ValidationErrors)
+                        {
+                            Trace.WriteLine($"- Property: \"{ve.PropertyName}\", Error: \"{ve.ErrorMessage}\"");
+                        }
+                    }
+                }
+
+            }
+        }
+        private void CreateContactDetail(HousewareShopDbContext context)
+        {
+            if (context.ContactDetails.Count() == 0)
+            {
+                try
+                {
+                    var contactDetail = new HousewareShop.Model.ContactDetail()
+                    {
+                        Name = "Gia dụng Hoàng Việt",
+                        Address = "156 đường số 17 , phường Tân Kiểng , Quận 7 , TP. HCM",
+                        Email = "giadunghoangviet@gmail.com",
+                        Lat = 21.0633645,
+                        Lng = 105.8053274,
+                        Phone = "01677821696",
+                        Website = "https://giadunghoangviet.com",
+                        Other = "",
+                        Status = true
+
+                    };
+                    context.ContactDetails.Add(contactDetail);
+                    context.SaveChanges();
+                }
+                catch (DbEntityValidationException ex)
+                {
+                    foreach (var eve in ex.EntityValidationErrors)
+                    {
+                        Trace.WriteLine($"Entity of type \"{eve.Entry.Entity.GetType().Name}\" in state \"{eve.Entry.State}\" has the following validation error.");
+                        foreach (var ve in eve.ValidationErrors)
+                        {
+                            Trace.WriteLine($"- Property: \"{ve.PropertyName}\", Error: \"{ve.ErrorMessage}\"");
+                        }
+                    }
+                }
+
             }
         }
     }

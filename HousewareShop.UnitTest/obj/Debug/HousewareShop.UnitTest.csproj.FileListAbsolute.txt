@@ -156,3 +156,5 @@ D:\C#-FPT\DoAn\HousewareShop.UnitTest\obj\Debug\HousewareShop.UnitTest.csproj.Co
 D:\C#-FPT\DoAn\HousewareShop.UnitTest\obj\Debug\HousewareShop.UnitTest.csproj.CopyComplete
 D:\C#-FPT\DoAn\HousewareShop.UnitTest\obj\Debug\HousewareShop.UnitTest.dll
 D:\C#-FPT\DoAn\HousewareShop.UnitTest\obj\Debug\HousewareShop.UnitTest.pdb
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\BotDetect.Web.Mvc.dll
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\BotDetect.dll

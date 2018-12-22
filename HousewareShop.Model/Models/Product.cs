@@ -50,6 +50,6 @@ namespace HousewareShop.Model
         public decimal OriginalPrice { set; get; }
         [ForeignKey("CategoryID")]
         public virtual ProductCategory ProductCategory { set; get; }
-        //public virtual IEnumerable<ProductTag> ProductTags { set; get; }
+        public virtual IEnumerable<ProductTag> ProductTags { set; get; }
     }
 }

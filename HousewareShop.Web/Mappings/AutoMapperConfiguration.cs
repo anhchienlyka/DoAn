@@ -6,13 +6,14 @@ using System.Linq;
 using System.Web;
 using HousewareShop.Web.Models;
 
+
 namespace HousewareShop.Web.Mappings
 {
     public class AutoMapperConfiguration
     {
         public static void Configure()
         {
-            Mapper.CreateMap<Post, PostViewModel>();
+           
             Mapper.CreateMap<Post, PostViewModel>();
             Mapper.CreateMap<PostCategory, PostCategoryViewModel>();
             Mapper.CreateMap<Tag, TagViewModel>();
@@ -23,7 +24,7 @@ namespace HousewareShop.Web.Mappings
             Mapper.CreateMap<Footer, FooterViewModel>();
             Mapper.CreateMap<Slide, SlideViewModel>();
             Mapper.CreateMap<Page, PageViewModel>();
-            //Mapper.CreateMap<ContactDetail, ContactDetailViewModel>();
+            Mapper.CreateMap<ContactDetail, ContactDetailViewModel>();
 
             //Mapper.CreateMap<ApplicationGroup, ApplicationGroupViewModel>();
             //Mapper.CreateMap<ApplicationRole, ApplicationRoleViewModel>();

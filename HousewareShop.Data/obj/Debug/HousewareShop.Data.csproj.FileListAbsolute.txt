@@ -37,8 +37,12 @@ D:\C#-FPT\DoAn\HousewareShop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 D:\C#-FPT\DoAn\HousewareShop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.csprojAssemblyReference.cache
 D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.addNewDB.resources
+D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.addtag.resources
+D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.conteacDetail.resources
 D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.csproj.GenerateResource.cache
 D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.csproj.CoreCompileInputs.cache
 D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.csproj.CopyComplete
 D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.dll
 D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.pdb
+D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.addtableFeeblacl.resources
+D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.addtableFeeblaclg.resources
