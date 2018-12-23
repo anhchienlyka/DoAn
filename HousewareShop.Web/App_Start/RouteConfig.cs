@@ -28,7 +28,7 @@ namespace HousewareShop.Web
             );
             routes.MapRoute(
          name: "Login",
-         url: "dang-nhap.html",
+         url: "dang-nhap",
          defaults: new { controller = "Account", action = "Login", id = UrlParameter.Optional },
          namespaces: new string[] { "HousewareShop.Web.Controllers" }
      );

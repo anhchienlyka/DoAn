@@ -228,3 +228,5 @@ D:\C#-FPT\DoAn\HousewareShop.Web\obj\Debug\HousewareShop.Web.csproj.CoreCompileI
 D:\C#-FPT\DoAn\HousewareShop.Web\obj\Debug\HousewareShop.Web.csproj.CopyComplete
 D:\C#-FPT\DoAn\HousewareShop.Web\obj\Debug\HousewareShop.Web.dll
 D:\C#-FPT\DoAn\HousewareShop.Web\obj\Debug\HousewareShop.Web.pdb
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\System.Web.Http.Owin.dll
+D:\C#-FPT\DoAn\HousewareShop.Web\bin\System.Web.Http.Owin.xml
