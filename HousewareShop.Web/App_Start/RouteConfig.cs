@@ -14,30 +14,35 @@ namespace HousewareShop.Web
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
             // BotDetect requests must not be routed
             routes.IgnoreRoute("{*botdetect}", new { botdetect = @"(.*)BotDetectCaptcha\.ashx" });
+
             routes.MapRoute(
                name: "Contact",
                url: "lien-he",
                defaults: new { controller = "Contact", action = "Index", id = UrlParameter.Optional },
                namespaces: new string[] { "HousewareShop.Web.Controllers" }
               );
+
             routes.MapRoute(
              name: "Search",
            url: "tim-kiem",
             defaults: new { controller = "Product", action = "Search", id = UrlParameter.Optional },
              namespaces: new string[] { "HousewareShop.Web.Controllers" }
             );
+
             routes.MapRoute(
          name: "Login",
          url: "dang-nhap",
          defaults: new { controller = "Account", action = "Login", id = UrlParameter.Optional },
          namespaces: new string[] { "HousewareShop.Web.Controllers" }
-     );
+          );
+
             routes.MapRoute(
             name: "Register",
             url: "dang-ky",
             defaults: new { controller = "Account", action = "Register", id = UrlParameter.Optional },
             namespaces: new string[] { "TeduShop.Web.Controllers" }
         );
+
             routes.MapRoute(
             name: "Page",
             url: "trang/{alias}",
@@ -52,6 +57,12 @@ namespace HousewareShop.Web
              defaults: new { controller = "Product", action = "Category", categoryId = UrlParameter.Optional },
                namespaces: new string[] { "HousewareShop.Web.Controllers" }
          );
+            routes.MapRoute(
+         name: "Cart",
+         url: "gio-hang",
+         defaults: new { controller = "ShoppingCart", action = "Index", id = UrlParameter.Optional },
+         namespaces: new string[] { "HousewareShop.Web.Controllers" }
+     );
             routes.MapRoute(
              name: "Product",         
             url: "{alias}/{aliascategory}/{aliasProduct}-{productId}",          
