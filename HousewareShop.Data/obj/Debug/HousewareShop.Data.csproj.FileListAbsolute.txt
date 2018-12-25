@@ -39,10 +39,15 @@ D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.csprojAssemblyRef
 D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.addNewDB.resources
 D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.addtag.resources
 D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.conteacDetail.resources
+D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.addtableFeeblacl.resources
+D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.addtableFeeblaclg.resources
+D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.remane.resources
+D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.Addnew.resources
+D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.adđbnnn.resources
+D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.addPrice.resources
 D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.csproj.GenerateResource.cache
 D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.csproj.CoreCompileInputs.cache
 D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.csproj.CopyComplete
 D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.dll
 D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.pdb
-D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.addtableFeeblacl.resources
-D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.addtableFeeblaclg.resources
+D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.addPriced.resources

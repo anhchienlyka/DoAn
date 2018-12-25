@@ -5,6 +5,9 @@
     angular.module('housewareshop',
         ['housewareshop.products',
             'housewareshop.product_categories',
+            'housewareshop.application_groups',         
+            'housewareshop.application_roles',
+            'housewareshop.application_users',
             'housewareshop.common'])
         .config(config)
         .config(configAuthentication);

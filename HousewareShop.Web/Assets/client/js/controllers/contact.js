@@ -1,4 +1,5 @@
-﻿var contact = {
+﻿
+var contact = {
     init: function () {
         contact.registerEvent();
     },

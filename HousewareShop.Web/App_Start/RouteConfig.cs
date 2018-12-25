@@ -47,7 +47,7 @@ namespace HousewareShop.Web
             name: "Page",
             url: "trang/{alias}",
             //url: "gioi-thieu",
-            defaults: new { controller = "Page", action = "Index", alias = UrlParameter.Optional },
+            defaults: new { controller = "Page", action = "Checkout", alias = UrlParameter.Optional },
             namespaces: new string[] { "HousewareShop.Web.Controllers" }
         );
             routes.MapRoute(
@@ -64,8 +64,15 @@ namespace HousewareShop.Web
          namespaces: new string[] { "HousewareShop.Web.Controllers" }
      );
             routes.MapRoute(
-             name: "Product",         
-            url: "{alias}/{aliascategory}/{aliasProduct}-{productId}",          
+           name: "Checkout",
+           url: "thanh-toan",
+           defaults: new { controller = "ShoppingCart", action = "Index", id = UrlParameter.Optional },
+           namespaces: new string[] { "TeduShop.Web.Controllers" }
+       );
+            routes.MapRoute(
+             name: "Product",
+            //url: "{alias}/{aliascategory}/{aliasProduct}-{productId}",  
+            url: "{alias}-{productId}",
              defaults: new { controller = "Product", action = "Detail", productId = UrlParameter.Optional },
                namespaces: new string[] { "HousewareShop.Web.Controllers" }
          );

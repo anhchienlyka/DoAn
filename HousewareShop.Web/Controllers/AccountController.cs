@@ -1,9 +1,6 @@
 ﻿using BotDetect.Web.Mvc;
-using HousewareShop.Common;
-using HousewareShop.Model.Models;
-using HousewareShop.Web.App_Start;
-using HousewareShop.Web.Models;
 using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using System;
@@ -13,6 +10,11 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
+using HousewareShop.Common;
+using HousewareShop.Model;
+using HousewareShop.Web.App_Start;
+using HousewareShop.Web.Models;
+using HousewareShop.Model.Models;
 
 namespace HousewareShop.Web.Controllers
 {
@@ -138,7 +140,7 @@ namespace HousewareShop.Web.Controllers
 
                 string content = System.IO.File.ReadAllText(Server.MapPath("/Assets/client/template/newuser.html"));
                 content = content.Replace("{{UserName}}", adminUser.FullName);
-                content = content.Replace("{{Link}}", ConfigHelper.GetByKey("CurrentLink") + "dang-nhap");
+                content = content.Replace("{{Link}}", ConfigHelper.GetByKey("CurrentLink") + "dang-nhap.html");
 
                 MailHelper.SendMail(adminUser.Email, "Đăng ký thành công", content);
 

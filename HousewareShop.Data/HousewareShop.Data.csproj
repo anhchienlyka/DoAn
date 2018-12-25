@@ -82,11 +82,35 @@
     <Compile Include="Migrations\201812220214087_addtableFeeblaclg.Designer.cs">
       <DependentUpon>201812220214087_addtableFeeblaclg.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812230853233_remane.cs" />
+    <Compile Include="Migrations\201812230853233_remane.Designer.cs">
+      <DependentUpon>201812230853233_remane.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812230903170_Addnew.cs" />
+    <Compile Include="Migrations\201812230903170_Addnew.Designer.cs">
+      <DependentUpon>201812230903170_Addnew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812240048229_adđbnnn.cs" />
+    <Compile Include="Migrations\201812240048229_adđbnnn.Designer.cs">
+      <DependentUpon>201812240048229_adđbnnn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812241603415_addPrice.cs" />
+    <Compile Include="Migrations\201812241603415_addPrice.Designer.cs">
+      <DependentUpon>201812241603415_addPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812241632081_addPriced.cs" />
+    <Compile Include="Migrations\201812241632081_addPriced.Designer.cs">
+      <DependentUpon>201812241632081_addPriced.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ApplicationGroupRepository.cs" />
+    <Compile Include="Repositories\ApplicationRoleGroupRepository.cs" />
+    <Compile Include="Repositories\ApplicationRoleRepository.cs" />
+    <Compile Include="Repositories\ApplicationUserGroupRepository.cs" />
     <Compile Include="Repositories\ContactDetailRepository.cs" />
     <Compile Include="Repositories\ErrorRepository.cs" />
     <Compile Include="Repositories\FeedbackRepository.cs" />
@@ -156,6 +180,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812220214087_addtableFeeblaclg.resx">
       <DependentUpon>201812220214087_addtableFeeblaclg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812230853233_remane.resx">
+      <DependentUpon>201812230853233_remane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812230903170_Addnew.resx">
+      <DependentUpon>201812230903170_Addnew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812240048229_adđbnnn.resx">
+      <DependentUpon>201812240048229_adđbnnn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812241603415_addPrice.resx">
+      <DependentUpon>201812241603415_addPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812241632081_addPriced.resx">
+      <DependentUpon>201812241632081_addPriced.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -27,8 +27,8 @@
             }
         }).autocomplete("instance")._renderItem = function (ul, item) {
             return $("<li>")
-              .append("<a>" + item.label + "</a>")
-              .appendTo(ul);
+                .append("<a>" + item.label + "</a>")
+                .appendTo(ul);
         };
         $('.btnAddToCart').off('click').on('click', function (e) {
             e.preventDefault();
@@ -43,9 +43,6 @@
                 success: function (response) {
                     if (response.status) {
                         alert('Thêm sản phẩm thành công.');
-                    }
-                    else {
-                        alert(response.message);
                     }
                 }
             });
