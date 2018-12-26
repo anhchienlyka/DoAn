@@ -161,3 +161,5 @@ D:\C#-FPT\DoAn\HousewareShop.UnitTest\obj\Debug\HousewareShop.UnitTest.csprojAss
 D:\C#-FPT\DoAn\HousewareShop.UnitTest\obj\Debug\HousewareShop.UnitTest.csproj.CopyComplete
 D:\C#-FPT\DoAn\HousewareShop.UnitTest\obj\Debug\HousewareShop.UnitTest.dll
 D:\C#-FPT\DoAn\HousewareShop.UnitTest\obj\Debug\HousewareShop.UnitTest.pdb
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Microsoft.Owin.Security.Facebook.dll
+D:\C#-FPT\DoAn\HousewareShop.UnitTest\bin\Debug\Microsoft.Owin.Security.Facebook.xml

@@ -23,34 +23,45 @@
 
         protected override void Seed(HousewareShop.Data.HousewareShopDbContext context)
         {
-            DbContextSeed(context);
+            CreateProductCategorySample(context);
             CreateSlide(context);
-            var manager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new HousewareShopDbContext()));
+            //  This method will be called after migrating to the latest version.
             CreatePage(context);
             CreateContactDetail(context);
-            var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(new HousewareShopDbContext()));
 
-            var user = new ApplicationUser()
+            CreateConfigTitle(context);
+        }
+
+
+        private void CreateConfigTitle(HousewareShopDbContext context)
+        {
+            if (!context.SystemConfigs.Any(x => x.Code == "HomeTitle"))
             {
-                UserName = "phamchien",
-                Email = "phamchien.international@gmail.com",
-                EmailConfirmed = true,
-                // BirthDay = DateTime.Now,
-                FullName = "Technology Education"
+                context.SystemConfigs.Add(new SystemConfig()
+                {
+                    Code = "HomeTitle",
+                    ValueString = "Trang chủ Hoàng Việt",
 
-            };
-
-            manager.Create(user, "123654$");
-
-            if (!roleManager.Roles.Any())
-            {
-                roleManager.Create(new IdentityRole { Name = "Admin" });
-                roleManager.Create(new IdentityRole { Name = "User" });
+                });
             }
+            if (!context.SystemConfigs.Any(x => x.Code == "HomeMetaKeyword"))
+            {
+                context.SystemConfigs.Add(new SystemConfig()
+                {
+                    Code = "HomeMetaKeyword",
+                    ValueString = "Trang chủ Hoàng Việt",
 
-            var adminUser = manager.FindByEmail("phamchien.international@gmail.com");
+                });
+            }
+            if (!context.SystemConfigs.Any(x => x.Code == "HomeMetaDescription"))
+            {
+                context.SystemConfigs.Add(new SystemConfig()
+                {
+                    Code = "HomeMetaDescription",
+                    ValueString = "Trang chủ Hoàng Việt",
 
-            manager.AddToRoles(adminUser.Id, new string[] { "Admin", "User" });
+                });
+            }
         }
         private void DbContextSeed(HousewareShopDbContext context, int retry = 0)
         {
@@ -108,12 +119,11 @@
                         DisplayOrder =1,
                         Status =true,
                         Url ="#",
-                        Image ="/Assets/client/images/bag.jpg",
+                        Image ="/Assets/client/images/bag1.jpg",
                         Content =@"	<h2>FLAT 50% 0FF</h2>
-                                <label>FOR ALL PURCHASE <b>VALUE</b></label>
-                                <p>Lorem ipsum dolor sit amet, consectetur 
-                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et </ p >
-                        <span class=""on-get"">GET NOW</span>" },
+                                <label>SẮM TẾT <b>THẢ GA</b></label>
+                                <p>Ủ ấm hạnh phúc mọi gia đình </ p >
+                        " },
                     new Slide() {
                         Name ="Slide 2",
                         DisplayOrder =2,
@@ -121,9 +131,9 @@
                         Url ="#",
                         Image ="/Assets/client/images/bag1.jpg",
                     Content=@"<h2>FLAT 50% 0FF</h2>
-                                <label>FOR ALL PURCHASE <b>VALUE</b></label>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </ p >
-                                <span class=""on-get"">GET NOW</span>"},
+                               <label>SẮM TẾT <b>THẢ GA</b></label>
+                                <p> Ủ ấm hạnh phúc mọi gia đình </ p >
+                                "},
                 };
                 context.Slides.AddRange(listSlide);
                 context.SaveChanges();

@@ -12,5 +12,9 @@ namespace HousewareShop.Web.Models
         public IEnumerable<ProductViewModel> TopSaleProducts { set; get; }
         public  IEnumerable<ProductCategoryViewModel> Categories { set; get; }
 
+        public string Title { set; get; }
+        public string MetaKeyword { set; get; }
+        public string MetaDescription { set; get; }
+
     }
 }   

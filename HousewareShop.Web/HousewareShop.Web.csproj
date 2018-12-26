@@ -91,11 +91,17 @@
     <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Owin.Security, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Owin.Security.2.1.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    <Reference Include="Microsoft.Owin.Security, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.Security.Cookies, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Owin.Security.Cookies.2.1.0\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.1\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.1\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.Security.OAuth, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Owin.Security.OAuth.2.1.0\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
@@ -224,6 +230,7 @@
     <Compile Include="Api\PostCategoryController.cs" />
     <Compile Include="Api\ProductCategoryController.cs" />
     <Compile Include="Api\ProductController.cs" />
+    <Compile Include="Api\StatisticController.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
@@ -251,6 +258,7 @@
     <Compile Include="Models\ApplicationRoleViewModel.cs" />
     <Compile Include="Models\ApplicationUserViewModel.cs" />
     <Compile Include="Models\ContactDetailViewModel.cs" />
+    <Compile Include="Models\ExternalLoginListViewModel.cs" />
     <Compile Include="Models\FeedbackViewModel.cs" />
     <Compile Include="Models\FooterViewModel.cs" />
     <Compile Include="Models\HomeViewModel.cs" />
@@ -316,9 +324,12 @@
     <Content Include="app\components\product_categories\productCategoryEditView.html" />
     <Content Include="app\components\product_categories\productCategoryListView.html" />
     <Content Include="app\components\product_categories\productCategoryListController.js" />
-    <Content Include="app\shared\Directves\asDateDirective.js" />
-    <Content Include="app\shared\Directves\PagerDirectve.html" />
-    <Content Include="app\shared\Directves\PagerDirectve.js" />
+    <Content Include="app\components\statistic\revenueStatisticController.js" />
+    <Content Include="app\components\statistic\revenueStatisticView.html" />
+    <Content Include="app\components\statistic\statistic.module.js" />
+    <Content Include="app\shared\directives\asDateDirective.js" />
+    <Content Include="app\shared\directives\pagerDirective.html" />
+    <Content Include="app\shared\directives\pagerDirective.js" />
     <Content Include="app\shared\filters\statusFilter.js" />
     <Content Include="app\shared\modules\housewareshop.common.js" />
     <Content Include="app\shared\services\apiService.js" />
@@ -456,6 +467,9 @@
     <Content Include="Assets\admin\libs\bootstrap\js\tooltip.js" />
     <Content Include="Assets\admin\libs\bootstrap\js\transition.js" />
     <Content Include="Assets\admin\libs\bootstrap\package.js" />
+    <Content Include="Assets\admin\libs\bower-angular-sanitize-master\angular-sanitize.js" />
+    <Content Include="Assets\admin\libs\bower-angular-sanitize-master\angular-sanitize.min.js" />
+    <Content Include="Assets\admin\libs\bower-angular-sanitize-master\index.js" />
     <Content Include="Assets\admin\libs\Chart.js\Chart.js" />
     <Content Include="Assets\admin\libs\checklist-model\checklist-model.js" />
     <Content Include="Assets\admin\libs\checklist-model\LICENSE.txt" />
@@ -5032,6 +5046,79 @@
     <Content Include="Assets\admin\libs\toastr\toastr.js" />
     <Content Include="Assets\admin\libs\toastr\toastr.min.css" />
     <Content Include="Assets\admin\libs\toastr\toastr.min.js" />
+    <Content Include="Assets\admin\libs\ui-select-master\dist\select.css" />
+    <Content Include="Assets\admin\libs\ui-select-master\dist\select.js" />
+    <Content Include="Assets\admin\libs\ui-select-master\dist\select.min.css" />
+    <Content Include="Assets\admin\libs\ui-select-master\dist\select.min.js" />
+    <Content Include="Assets\admin\libs\ui-select-master\docs\assets\app.js" />
+    <Content Include="Assets\admin\libs\ui-select-master\docs\assets\demo.js" />
+    <Content Include="Assets\admin\libs\ui-select-master\docs\assets\docs.css" />
+    <Content Include="Assets\admin\libs\ui-select-master\docs\assets\plunkr.js" />
+    <Content Include="Assets\admin\libs\ui-select-master\docs\examples\demo-append-to-body.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\docs\examples\demo-basic.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\docs\examples\demo-bind-to-single-property-async.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\docs\examples\demo-bind-to-single-property.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\docs\examples\demo-bootstrap.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\docs\examples\demo-disable-search.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\docs\examples\demo-dropdown-position.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\docs\examples\demo-event-on-selection.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\docs\examples\demo-focus.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\docs\examples\demo-group-by.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\docs\examples\demo-group-filter.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\docs\examples\demo-header-and-footer.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\docs\examples\demo-multiple-selection.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\docs\examples\demo-object-as-source.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\docs\examples\demo-select2-with-bootstrap.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\docs\examples\demo-selectize-with-bootstrap.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\docs\examples\demo-tagging.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\docs\index.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\docs\partials\_footer.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\docs\partials\_header.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\gulpfile.js" />
+    <Content Include="Assets\admin\libs\ui-select-master\index.js" />
+    <Content Include="Assets\admin\libs\ui-select-master\karma.conf.js" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\bootstrap\choices.tpl.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\bootstrap\footer.tpl.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\bootstrap\header.tpl.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\bootstrap\match-multiple.tpl.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\bootstrap\match.tpl.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\bootstrap\no-choice.tpl.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\bootstrap\select-multiple.tpl.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\bootstrap\select.tpl.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\common.css" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\common.js" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\select2\choices.tpl.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\select2\footer.tpl.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\select2\header.tpl.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\select2\match-multiple.tpl.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\select2\match.tpl.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\select2\no-choice.tpl.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\select2\select-multiple.tpl.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\select2\select.tpl.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\selectize\choices.tpl.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\selectize\footer.tpl.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\selectize\header.tpl.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\selectize\match-multiple.tpl.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\selectize\match.tpl.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\selectize\no-choice.tpl.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\selectize\select-multiple.tpl.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\selectize\select.tpl.html" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\uisDebounceService.js" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\uiSelectChoicesDirective.js" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\uiSelectController.js" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\uiSelectDirective.js" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\uiSelectFooterDirective.js" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\uiSelectHeaderDirective.js" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\uiSelectHeaderGroupSelectableDirective.js" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\uiSelectMatchDirective.js" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\uiSelectMultipleDirective.js" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\uiSelectNoChoiceDirective.js" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\uiSelectSingleDirective.js" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\uiSelectSortDirective.js" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\uisOpenCloseDirective.js" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\uisRepeatParserService.js" />
+    <Content Include="Assets\admin\libs\ui-select-master\test\helpers.js" />
+    <Content Include="Assets\admin\libs\ui-select-master\test\select.spec.js" />
     <Content Include="Assets\client\css\bootstrap.css" />
     <Content Include="Assets\client\css\checkout.css" />
     <Content Include="Assets\client\css\creditly.css" />
@@ -5062,6 +5149,8 @@
     <Content Include="Assets\client\images\baa.jpg" />
     <Content Include="Assets\client\images\bag.jpg" />
     <Content Include="Assets\client\images\bag1.jpg" />
+    <Content Include="Assets\client\images\ban-nhua-chu-nhat-duy-tan-3_large.jpg" />
+    <Content Include="Assets\client\images\ban-nhua-vuong-cao-mau-duong_large.jpg" />
     <Content Include="Assets\client\images\bank_logo.png" />
     <Content Include="Assets\client\images\bann1.jpg" />
     <Content Include="Assets\client\images\bann2.jpg" />
@@ -5077,6 +5166,8 @@
     <Content Include="Assets\client\images\bl6.jpg" />
     <Content Include="Assets\client\images\blg1.jpg" />
     <Content Include="Assets\client\images\blg2.jpg" />
+    <Content Include="Assets\client\images\block_home_category1.jpg" />
+    <Content Include="Assets\client\images\block_home_category2.jpg" />
     <Content Include="Assets\client\images\bo.jpg" />
     <Content Include="Assets\client\images\bott.jpg" />
     <Content Include="Assets\client\images\bottle.jpg" />
@@ -5086,6 +5177,9 @@
     <Content Include="Assets\client\images\img-sprite.png" />
     <Content Include="Assets\client\images\label_new.png" />
     <Content Include="Assets\client\images\logo.png" />
+    <Content Include="Assets\client\images\panner.jpg" />
+    <Content Include="Assets\client\images\panner1.jpg" />
+    <Content Include="Assets\client\images\panner2.jpg" />
     <Content Include="Assets\client\images\pi.jpg" />
     <Content Include="Assets\client\images\pi1.jpg" />
     <Content Include="Assets\client\images\pi2.jpg" />
@@ -5116,6 +5210,7 @@
     <Content Include="Assets\client\images\si3.jpg" />
     <Content Include="Assets\client\images\si4.jpg" />
     <Content Include="Assets\client\images\star.png" />
+    <Content Include="Assets\client\images\tet.jpg" />
     <Content Include="Assets\client\images\tick1.png" />
     <Content Include="Assets\client\images\twitter.png" />
     <Content Include="Assets\client\images\wa.jpg" />
@@ -5624,6 +5719,27 @@
     <Content Include="Assets\client\webfonts\fa-solid-900.ttf" />
     <Content Include="Assets\client\webfonts\fa-solid-900.woff" />
     <Content Include="Assets\client\webfonts\fa-solid-900.woff2" />
+    <Content Include="Assets\admin\libs\ui-select-master\.editorconfig" />
+    <Content Include="Assets\admin\libs\ui-select-master\.gitattributes" />
+    <Content Include="Assets\admin\libs\ui-select-master\.github\ISSUE_TEMPLATE.md" />
+    <Content Include="Assets\admin\libs\ui-select-master\.gitignore" />
+    <Content Include="Assets\admin\libs\ui-select-master\.travis.yml" />
+    <Content Include="Assets\admin\libs\ui-select-master\bower.json" />
+    <Content Include="Assets\admin\libs\ui-select-master\CHANGELOG.md" />
+    <Content Include="Assets\admin\libs\ui-select-master\composer.json" />
+    <Content Include="Assets\admin\libs\ui-select-master\CONTRIBUTING.md" />
+    <Content Include="Assets\admin\libs\ui-select-master\deploy-docs.sh" />
+    <Content Include="Assets\admin\libs\ui-select-master\dist\select.min.css.map" />
+    <Content Include="Assets\admin\libs\ui-select-master\dist\select.min.js.map" />
+    <Content Include="Assets\admin\libs\ui-select-master\LICENSE" />
+    <Content Include="Assets\admin\libs\ui-select-master\package.json" />
+    <Content Include="Assets\admin\libs\ui-select-master\README.md" />
+    <Content Include="Assets\admin\libs\ui-select-master\src\.jshintrc" />
+    <Content Include="Assets\admin\libs\bower-angular-sanitize-master\angular-sanitize.min.js.map" />
+    <Content Include="Assets\admin\libs\bower-angular-sanitize-master\bower.json" />
+    <Content Include="Assets\admin\libs\bower-angular-sanitize-master\LICENSE.md" />
+    <Content Include="Assets\admin\libs\bower-angular-sanitize-master\package.json" />
+    <Content Include="Assets\admin\libs\bower-angular-sanitize-master\README.md" />
     <None Include="bin\HousewareShop.Web.dll.config" />
     <Content Include="bin\roslyn\csc.exe.config" />
     <Content Include="bin\roslyn\csc.rsp" />
@@ -5655,6 +5771,8 @@
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\ShoppingCart\Index.cshtml" />
+    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
+    <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HousewareShop.Common\HousewareShop.Common.csproj">

@@ -17,10 +17,10 @@ namespace HousewareShop.Model.Models
         [MaxLength(256)]
         public string Address { set; get; }
         public DateTime? Birthday { set; get; }
-        public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
+        public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager, string authenticationType)
         {
             // Note the authenticationType must match the one defined in CookieAuthenticationOptions.AuthenticationType
-            var userIdentity = await manager.CreateIdentityAsync(this, DefaultAuthenticationTypes.ApplicationCookie);
+            var userIdentity = await manager.CreateIdentityAsync(this,  authenticationType);
             // Add custom user claims here
             return userIdentity;
         }

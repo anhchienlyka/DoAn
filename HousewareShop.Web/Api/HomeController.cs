@@ -19,12 +19,12 @@ namespace HousewareShop.Web.Api
                 this._errorService = errorService;
             }
 
-            [HttpGet]
-            [Route("TestMethod")]
-            public string TestMethod()
-            {
-                return "Hello, Houware Member. ";
-            }
+        [HttpGet]
+        [Route("TestMethod")]
+        public string TestMethod()
+        {
+            return "Hello, Houware Member. ";
         }
+    }
    }
 

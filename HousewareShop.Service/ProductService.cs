@@ -21,15 +21,19 @@ namespace HousewareShop.Service
         IEnumerable<Product> GetAll();
 
         IEnumerable<Product> GetAll(string keyword);
+
         IEnumerable<Product> GetLastest(int top);
 
         IEnumerable<Product> GetHotProduct(int top);
+
         IEnumerable<Product> GetListProductByCategoryIdPaging(int categoryId, int page, int pageSize, string sort, out int totalRow);
+
         IEnumerable<Product> Search(string keyword, int page, int pageSize, string sort, out int totalRow);
 
         IEnumerable<Product> GetReatedProducts(int id, int top);
 
         IEnumerable<string> GetListProductByName(string name);
+
         Product GetById(int id);
 
         void Save();
@@ -41,6 +45,8 @@ namespace HousewareShop.Service
         void IncreaseView(int id);
 
         IEnumerable<Product> GetListProductByTag(string tagId, int page, int pagesize, out int totalRow);
+
+        bool SellProduct(int productId, int quantity);
     }
 
     public class ProductService : IProductService
@@ -111,15 +117,47 @@ namespace HousewareShop.Service
             return _productRepository.GetSingleById(id);
         }
 
-        public IEnumerable<Product> GetHotProduct(int top)
+        public void Save()
         {
-            return _productRepository.GetMulti(x => x.Status && x.HotFlag == true).OrderByDescending(x => x.CreatedDate).Take(top);
+            _unitOfWork.Commit();
+        }
 
+        public void Update(Product Product)
+        {
+            _productRepository.Update(Product);
+            if (!string.IsNullOrEmpty(Product.Tags))
+            {
+                string[] tags = Product.Tags.Split(',');
+                for (var i = 0; i < tags.Length; i++)
+                {
+                    var tagId = StringHelper.ToUnsignString(tags[i]);
+                    if (_tagRepository.Count(x => x.ID == tagId) == 0)
+                    {
+                        Tag tag = new Tag();
+                        tag.ID = tagId;
+                        tag.Name = tags[i];
+                        tag.Type = CommonConstants.ProductTag;
+                        _tagRepository.Add(tag);
+                    }
+                    _productTagRepository.DeleteMulti(x => x.ProductID == Product.ID);
+                    ProductTag productTag = new ProductTag();
+                    productTag.ProductID = Product.ID;
+                    productTag.TagID = tagId;
+                    _productTagRepository.Add(productTag);
+                }
+
+            }
         }
 
         public IEnumerable<Product> GetLastest(int top)
         {
             return _productRepository.GetMulti(x => x.Status).OrderByDescending(x => x.CreatedDate).Take(top);
+        }
+
+        public IEnumerable<Product> GetHotProduct(int top)
+        {
+            return _productRepository.GetMulti(x => x.Status && x.HotFlag == true).OrderByDescending(x => x.CreatedDate).Take(top);
+
         }
 
         public IEnumerable<Product> GetListProductByCategoryIdPaging(int categoryId, int page, int pageSize, string sort, out int totalRow)
@@ -152,42 +190,6 @@ namespace HousewareShop.Service
             return _productRepository.GetMulti(x => x.Status && x.Name.Contains(name)).Select(y => y.Name);
         }
 
-        public IEnumerable<Product> GetListProductByTag(string tagId, int page, int pageSize, out int totalRow)
-        {
-            var model = _productRepository.GetListProductByTag(tagId, page, pageSize, out totalRow);
-            return model;
-        }
-
-        public IEnumerable<Tag> GetListTagByProductId(int id)
-        {
-            return _productTagRepository.GetMulti(x => x.ProductID == id, new string[] { "Tag" }).Select(y => y.Tag);
-        }
-
-        public IEnumerable<Product> GetReatedProducts(int id, int top)
-        {
-            var product = _productRepository.GetSingleById(id);
-            return _productRepository.GetMulti(x => x.Status && x.ID != id && x.CategoryID == product.CategoryID).OrderByDescending(x => x.CreatedDate).Take(top);
-        }
-
-        public Tag GetTag(string tagId)
-        {
-            return _tagRepository.GetSingleByCondition(x => x.ID == tagId);
-        }
-
-        public void IncreaseView(int id)
-        {
-            var product = _productRepository.GetSingleById(id);
-            if (product.ViewCount.HasValue)
-                product.ViewCount += 1;
-            else
-                product.ViewCount = 1;
-        }
-
-        public void Save()
-        {
-            _unitOfWork.Commit();
-        }
-
         public IEnumerable<Product> Search(string keyword, int page, int pageSize, string sort, out int totalRow)
         {
             var query = _productRepository.GetMulti(x => x.Status && x.Name.Contains(keyword));
@@ -213,31 +215,45 @@ namespace HousewareShop.Service
             return query.Skip((page - 1) * pageSize).Take(pageSize);
         }
 
-        public void Update(Product Product)
+        public IEnumerable<Product> GetReatedProducts(int id, int top)
         {
-            _productRepository.Update(Product);
-            if (!string.IsNullOrEmpty(Product.Tags))
-            {
-                string[] tags = Product.Tags.Split(',');
-                for (var i = 0; i < tags.Length; i++)
-                {
-                    var tagId = StringHelper.ToUnsignString(tags[i]);
-                    if (_tagRepository.Count(x => x.ID == tagId) == 0)
-                    {
-                        Tag tag = new Tag();
-                        tag.ID = tagId;
-                        tag.Name = tags[i];
-                        tag.Type = CommonConstants.ProductTag;
-                        _tagRepository.Add(tag);
-                    }
-                    _productTagRepository.DeleteMulti(x => x.ProductID == Product.ID);
-                    ProductTag productTag = new ProductTag();
-                    productTag.ProductID = Product.ID;
-                    productTag.TagID = tagId;
-                    _productTagRepository.Add(productTag);
-                }
+            var product = _productRepository.GetSingleById(id);
+            return _productRepository.GetMulti(x => x.Status && x.ID != id && x.CategoryID == product.CategoryID).OrderByDescending(x => x.CreatedDate).Take(top);
+        }
 
-            }
+        public IEnumerable<Tag> GetListTagByProductId(int id)
+        {
+            return _productTagRepository.GetMulti(x => x.ProductID == id, new string[] { "Tag" }).Select(y => y.Tag);
+        }
+
+        public void IncreaseView(int id)
+        {
+            var product = _productRepository.GetSingleById(id);
+            if (product.ViewCount.HasValue)
+                product.ViewCount += 1;
+            else
+                product.ViewCount = 1;
+        }
+
+        public IEnumerable<Product> GetListProductByTag(string tagId, int page, int pageSize, out int totalRow)
+        {
+            var model = _productRepository.GetListProductByTag(tagId, page, pageSize, out totalRow);
+            return model;
+        }
+
+        public Tag GetTag(string tagId)
+        {
+            return _tagRepository.GetSingleByCondition(x => x.ID == tagId);
+        }
+
+        //Selling product
+        public bool SellProduct(int productId, int quantity)
+        {
+            var product = _productRepository.GetSingleById(productId);
+            if (product.Quantity < quantity)
+                return false;
+            product.Quantity -= quantity;
+            return true;
         }
     }
 }

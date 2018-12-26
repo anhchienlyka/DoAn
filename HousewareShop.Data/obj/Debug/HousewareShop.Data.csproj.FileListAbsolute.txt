@@ -51,3 +51,6 @@ D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.csproj.CopyComple
 D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.dll
 D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.pdb
 D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.addPriced.resources
+D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.addStore.resources
+D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.addStoress.resources
+D:\C#-FPT\DoAn\HousewareShop.Data\obj\Debug\HousewareShop.Data.Migrations.AddSlide.resources

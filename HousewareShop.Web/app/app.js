@@ -8,6 +8,7 @@
             'housewareshop.application_groups',         
             'housewareshop.application_roles',
             'housewareshop.application_users',
+            'housewareshop.statistics',
             'housewareshop.common'])
         .config(config)
         .config(configAuthentication);
