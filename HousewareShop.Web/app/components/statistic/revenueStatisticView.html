@@ -15,7 +15,7 @@
 <section class="content">
     <div class="row">
         <!-- Left col -->
-        <section class="col-lg-7">
+        <section class="col-lg-6">
             <!-- Custom tabs (Charts with tabs)-->
             <div class="nav-tabs-custom">
                 <!-- Tabs within a box -->
@@ -31,7 +31,7 @@
 
         </section><!-- /.Left col -->
         <!-- right col (We are only adding the ID to make the widgets sortable)-->
-        <section class="col-lg-5">
+        <section class="col-lg-6">
             <!-- Map box -->
             <div class="box box-solid">
                 <div class="box-header">
@@ -46,6 +46,8 @@
                     <table class="table table-bordered">
                         <thead>
                             <tr>
+                                <td>Sản phẩm</td>
+                                <td>Số lượng</td>
                                 <td>Ngày</td>
                                 <td>Doanh số</td>
                                 <td>Lợi nhuận</td>
@@ -53,6 +55,12 @@
                         </thead>
                         <tbody>
                             <tr ng-repeat="item in tabledata">
+                                <td>
+                                    {{item.Name | filter}}
+                                </td>
+                                <td>
+                                    {{item.Quantitys | number}}
+                                </td>
                                 <td>
                                     {{item.Date | date}}
                                 </td>
@@ -64,11 +72,15 @@
                                 </td>
                             </tr>
                         </tbody>
+                      
                     </table>
                 </div><!-- /.box-body-->
                 <div class="box-footer no-border">
                 </div>
             </div>
+           
+               
+            
         </section><!-- right col -->
     </div><!-- /.row (main row) -->
 

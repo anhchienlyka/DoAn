@@ -126,7 +126,7 @@
                         " },
                     new Slide() {
                         Name ="Slide 2",
-                        DisplayOrder =2,
+                        DisplayOrder = 2,
                         Status =true,
                         Url ="#",
                         Image ="/Assets/client/images/bag1.jpg",

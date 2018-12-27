@@ -79,11 +79,14 @@
                         <h6><a href="@url">@product.Name</a></h6>
                         <div class="star-price">
                             <div class="dolor-grid">
-                                @if (product.PromotionPrice.HasValue)
+                                @if (product.PromotionPrice != 0)
                                 {
                                     <span class="actual">@product.PromotionPrice.Value.ToString("N0")</span>
+                                    <span class="reducedfrom">@product.Price.ToString("N0")</span>
                                 }
-                                <span class="reducedfrom">@product.Price.ToString("N0")</span>
+                                else
+                                {
+                                <span class="actual">@product.Price.ToString("N0")</span>}
                                 <span class="rating">
                                     <input type="radio" class="rating-input" id="rating-input-1-5" name="rating-input-1">
                                     <label for="rating-input-1-5" class="rating-star1"> </label>

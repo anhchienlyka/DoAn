@@ -18,16 +18,20 @@
                 }
             }
             apiService.get('api/statistic/getrevenue?fromDate=' + config.param.fromDate + "&toDate=" + config.param.toDate, null, function (response) {
-                $scope.tabledata = response.data;
+              $scope.tabledata = response.data;
                 var labels = [];
-                var chartData = [];
+                var chartData = [];            
                 var revenues = [];
                 var benefits = [];
+
                 $.each(response.data, function (i, item) {
+                  
                     labels.push($filter('date')(item.Date,'dd/MM/yyyy'));
                     revenues.push(item.Revenues);
                     benefits.push(item.Benefit);
+                    
                 });
+                
                 chartData.push(revenues);
                 chartData.push(benefits);
 

@@ -25,6 +25,7 @@ namespace HousewareShop.Web.Models
 
         public decimal? PromotionPrice { set; get; }
 
+
         public int? Warranty { set; get; }
         public int Quantity { set; get; }
         public string Description { set; get; }
@@ -53,7 +54,22 @@ namespace HousewareShop.Web.Models
 
         public string Tags { set; get; }
       
-        public decimal OriginalPrice { set; get; }
+        public decimal OriginalPrice { set ; get; }
+        //private decimal prices;
+        //public decimal? Prices {
+        //    set { if(PromotionPrice !=0)
+        //        {
+        //            Prices = PromotionPrice;
+        //        }
+        //    else
+        //        {
+        //            Prices = Price;
+        //        }
+        //         }
+        //    get { return prices; }
+        //}
         public virtual ProductCategoryViewModel ProductCategory { set; get; }
+
+        
     }
 }

@@ -106,13 +106,37 @@
     <Compile Include="Migrations\201812250833089_addStore.Designer.cs">
       <DependentUpon>201812250833089_addStore.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201812250837073_addStoress.cs" />
-    <Compile Include="Migrations\201812250837073_addStoress.Designer.cs">
-      <DependentUpon>201812250837073_addStoress.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\201812261147075_AddSlide.cs" />
     <Compile Include="Migrations\201812261147075_AddSlide.Designer.cs">
       <DependentUpon>201812261147075_AddSlide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812270254213_addstoress.cs" />
+    <Compile Include="Migrations\201812270254213_addstoress.Designer.cs">
+      <DependentUpon>201812270254213_addstoress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812271039349_addOderDetail.cs" />
+    <Compile Include="Migrations\201812271039349_addOderDetail.Designer.cs">
+      <DependentUpon>201812271039349_addOderDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812271411163_staticStoresss.cs" />
+    <Compile Include="Migrations\201812271411163_staticStoresss.Designer.cs">
+      <DependentUpon>201812271411163_staticStoresss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812271636426_staticStoresssddd.cs" />
+    <Compile Include="Migrations\201812271636426_staticStoresssddd.Designer.cs">
+      <DependentUpon>201812271636426_staticStoresssddd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812271648026_static.cs" />
+    <Compile Include="Migrations\201812271648026_static.Designer.cs">
+      <DependentUpon>201812271648026_static.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812271854135_staticccccccc.cs" />
+    <Compile Include="Migrations\201812271854135_staticccccccc.Designer.cs">
+      <DependentUpon>201812271854135_staticccccccc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812271900021_hehehe.cs" />
+    <Compile Include="Migrations\201812271900021_hehehe.Designer.cs">
+      <DependentUpon>201812271900021_hehehe.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
@@ -211,11 +235,29 @@
     <EmbeddedResource Include="Migrations\201812250833089_addStore.resx">
       <DependentUpon>201812250833089_addStore.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201812250837073_addStoress.resx">
-      <DependentUpon>201812250837073_addStoress.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812261147075_AddSlide.resx">
       <DependentUpon>201812261147075_AddSlide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812270254213_addstoress.resx">
+      <DependentUpon>201812270254213_addstoress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812271039349_addOderDetail.resx">
+      <DependentUpon>201812271039349_addOderDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812271411163_staticStoresss.resx">
+      <DependentUpon>201812271411163_staticStoresss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812271636426_staticStoresssddd.resx">
+      <DependentUpon>201812271636426_staticStoresssddd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812271648026_static.resx">
+      <DependentUpon>201812271648026_static.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812271854135_staticccccccc.resx">
+      <DependentUpon>201812271854135_staticccccccc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812271900021_hehehe.resx">
+      <DependentUpon>201812271900021_hehehe.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

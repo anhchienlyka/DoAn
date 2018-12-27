@@ -78,14 +78,14 @@ namespace HousewareShop.Web.Controllers
             bool isEnough = true;
             foreach (var item in cart)
             {
-                var detail = new OrderDetail();//lưu 1 chi tiet hóa đơn mới
+                var detail = new OrderDetail();//lưu 1 chi tiet hóa đơn mới               
                 detail.ProductID = item.ProductId;
                 detail.Quantity = item.Quantity;
                 detail.Price = item.Product.Price;
                 orderDetails.Add(detail);
 
                 isEnough = _productService.SellProduct(item.ProductId, item.Quantity);
-                break;
+              
             }
             if (isEnough)
             {
